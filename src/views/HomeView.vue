@@ -241,6 +241,10 @@
         </vue3-marquee>
       </div>
     </section>
+
+    <section class="testimony">
+      <h1>Ils nous font confiance</h1>
+    </section>
   </div>
 </template>
 
@@ -279,10 +283,10 @@
 </script>
 
 <style lang="scss" scoped>
-
   .images {
-    margin: 10px;
+    margin: 5px;
   }
+
   h5 {
     font-size: 30px;
     animation-name: moveInLeft;
@@ -381,7 +385,18 @@
       object-fit: cover;
       height: 50%;
       width: 100%;
+     
     }
+
+        h1 {
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 30px;
+          padding: 5px;
+          font-family: 'Jost', sans-serif;
+          color: #001D6E;
+          font-weight: bold;
+        }
 
     .aside {
       padding: 10px;
@@ -429,7 +444,6 @@
       font-family: 'Jost', sans-serif;
       color: #001D6E;
       font-weight: bold;
-
       margin: 10px;
 
 
@@ -437,11 +451,12 @@
 
     span {
       color: #001D6E;
+      
     }
 
 
     .hours {
-      margin: 10px;
+      margin-left: 15px;
       font-family: 'Jost', sans-serif;
     }
 
@@ -530,6 +545,11 @@
     background-color: #CFD2CF;
     text-align: center;
 
+    img {
+      border-radius: 5px;
+      box-shadow: 0 5px 10px #0005;
+    }
+
     h1 {
       text-align: center;
       text-transform: uppercase;
@@ -578,6 +598,23 @@
       font-weight: bold;
     }
 
+  }
+
+  .testimony {
+    padding: 25px;
+    background-color: #CFD2CF;
+    text-align: center;
+
+
+      h1 {
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 25px;
+          padding: 5px;
+          font-family: 'Jost', sans-serif;
+          color: #001D6E;
+          font-weight: bold;
+        }
   }
 
   .hero {
