@@ -22,7 +22,9 @@
                                              <li><i class="fab fa-facebook"></i> Micalex Optique</li>
                                              <li><i class="fab fa-instagram"></i> Micalex Optique</li>
                                              <li><i class="fab fa-linkedin"></i> Micalex Optique</li>
-                                             
+
+                                             <li><i class="fab fa-envelope-dot"></i> micalexoptique@gmail.com</li>
+
                                         </ul>
                                    </div>
                               </div>

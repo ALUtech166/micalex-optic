@@ -229,19 +229,16 @@
     <section class="marques">
       <div class="container">
         <h1>Nos Marques</h1>
-        <!--     <vue3-marquee :clone="true">
-          <img class="images" height="100" src="../images/LOGO.jpg" />
-          <img class="images" height="100" src="../images/logo-2FEVRIER-lome.png" />
-          <img class="images" height="100" src="../images/SBC.png" />
-          <img class="images" height="100" src="../images/AACG.jpg" />
-          <img class="images" height="100" src="../images/dowoto.jpeg" />
-          <img class="images" height="100" src="../images/mayi_SarlU.jpg" />
-          <img class="images" height="100" src="../images/ttibp.jpg" />
-          <img class="images" height="100" src="../images/logo-zilla.png" />
+        <vue3-marquee :clone="true">
+          <img class="images" height="100" src="../assets/Fendi.png" />
+          <img class="images" height="100" src="../assets/Versace.png" />
+          <img class="images" height="100" src="../assets/Outika.png" />
+          <img class="images" height="100" src="../assets/Bvlgari.png" />
+          <img class="images" height="100" src="../assets/Outika.png" />
 
 
 
-        </vue3-marquee> -->
+        </vue3-marquee>
       </div>
     </section>
   </div>
@@ -282,6 +279,10 @@
 </script>
 
 <style lang="scss" scoped>
+
+  .images {
+    margin: 10px;
+  }
   h5 {
     font-size: 30px;
     animation-name: moveInLeft;
