@@ -48,7 +48,7 @@
 
 
     <section class="services">
-      <div class="container">
+      <div class="">
         <h1>Les Services de Micalex Optique</h1>
 
         <div class="row">
@@ -319,13 +319,12 @@
   }
 
   .services {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 
     @media (min-width: 550px) {
       margin-top: 75px;
       padding: 20px;
-      height: 50vh;
     }
 
     h1 {
