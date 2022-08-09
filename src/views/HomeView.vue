@@ -87,11 +87,12 @@
           <div class="heading" style="text-align: center;">
             <h1>Notre Vision</h1>
           </div>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Doloremque suscipit adipisci, alias, porro amet
-            dolores beatae natus ipsa autem mollitia est enim, eos consequuntur? Voluptas,
-            saepe? Possimus aliquam sed
-            accusamus!</p>
+          <p>
+            La vision de Micalex Optique est simple et unique. Nous comptons devenir la solution incontournable de la
+            vue au Togo et dans la sous-région ouest africaine et même à l’international. C’est un réel défi auquel nous
+            nous attachons au quotidien afin de le relever.
+
+          </p>
         </div>
       </div>
 
@@ -155,11 +156,12 @@
             <h1>Prendre un rendez-vous <br>
               chez nos Experts</h1>
             <div>
-              <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos maxime inventore harum laborum natus
-                libero vero corporis culpa consectetur laboriosam sint ad,
-                blanditiis eligendi error, minima totam nihil
-                dolore beatae.
+              <h6>
+
+                Rencontrer nos opticiens spécialistes
+                dans l'adaptation et la fabrication de
+                lentilles optiques, de lunettes, de lentilles
+                de contact et de visages.
 
                 <br>
                 <button href="" id="button" class="btn btn-outline-primary btn-aminated">Cliquez Ici</button>
@@ -385,18 +387,18 @@
       object-fit: cover;
       height: 50%;
       width: 100%;
-     
+
     }
 
-        h1 {
-          text-align: center;
-          text-transform: uppercase;
-          font-size: 30px;
-          padding: 5px;
-          font-family: 'Jost', sans-serif;
-          color: #001D6E;
-          font-weight: bold;
-        }
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 30px;
+      padding: 5px;
+      font-family: 'Jost', sans-serif;
+      color: #001D6E;
+      font-weight: bold;
+    }
 
     .aside {
       padding: 10px;
@@ -411,6 +413,7 @@
         text-align: center;
         background-color: #fff;
         border: 2px solid#001D6E;
+        border-radius: 5px;
         width: 50%;
         align-items: center;
         margin-right: 50px;
@@ -422,6 +425,9 @@
         padding: 20px;
         background-color: #fff;
         border: 2px solid#001D6E;
+        font-family: 'Jost', sans-serif;
+        font-size: 17px;
+        border-radius: 5px;
 
         @media (min-width: 550px) {
           padding: 50px;
@@ -451,7 +457,7 @@
 
     span {
       color: #001D6E;
-      
+
     }
 
 
@@ -507,6 +513,8 @@
       h6 {
         text-align: center;
         padding: 10px;
+        font-size: 17px;
+        font-family: 'Jost', sans-serif;
 
       }
 
@@ -606,15 +614,15 @@
     text-align: center;
 
 
-      h1 {
-          text-align: center;
-          text-transform: uppercase;
-          font-size: 25px;
-          padding: 5px;
-          font-family: 'Jost', sans-serif;
-          color: #001D6E;
-          font-weight: bold;
-        }
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 25px;
+      padding: 5px;
+      font-family: 'Jost', sans-serif;
+      color: #001D6E;
+      font-weight: bold;
+    }
   }
 
   .hero {

@@ -10,9 +10,18 @@
         <div class="square"></div>
         <div class="description">
           <h1>Micalex Optique</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vitae inventore odio dolor commodi
-            voluptatum aperiam doloribus sunt ipsam consequatur est, asperiores recusandae adipisci enim iure, in
-            numquam nesciunt vel.</p>
+          <p>
+            Micalex Optique est la lunetterie par excellence de la capitale. Elle est une entreprise spécialisée dans la
+            fourniture de services optiques en général. Particulièrement, elle s’est imposée et fait parler d’elle dans
+            le secteur de la lunetterie.
+            Ceci dit, Micalex Optique propose une large gamme de produits tels que les verres correcteurs , les
+            lentilles de contacts , les montures de toutes gamme et toutes qualités ainsi que tout les accessoires de
+            l’optique etc…
+            Nous nous démarquons particulièrement à travers nos nombreux services pour le bien-être de la santé visuelle
+            de tous. La qualité et l’efficacité sont notre leitmotiv. C’est pourquoi Micalex Optique œuvre et collabore
+            avec des ingénieurs compétents et férus qui s’y connaissent en la matière.
+
+          </p>
         </div>
         <div class="square-root"></div>
       </section>
@@ -27,8 +36,11 @@
         </div>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores enim ad, reiciendis sunt ipsa illo
-          sit temporibus adipisci possimus nam fugit architecto voluptate ab velit optio tenetur obcaecati porro.
+          La vision de Micalex Optique est simple et unique. Nous comptons devenir la solution incontournable de la vue
+          au Togo et dans la sous-région ouest africaine et même à l’international. C’est un réel défi auquel nous nous
+          attachons au quotidien afin de le relever.
+          En ce qui concerne nos objectifs, nous comptons à court, moyen et long terme, résoudre selon nos capacités et
+          potentialités, les problèmes de vue au Togo et dans la sous-région.
         </p>
       </div>
 

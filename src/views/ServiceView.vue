@@ -9,14 +9,12 @@
                     <div class="description">
                          <h1>Vente</h1>
                          <hr>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vitae inventore odio dolor
-                              commodi
-                              voluptatum aperiam doloribus sunt ipsam consequatur est, asperiores recusandae adipisci
-                              enim iure, in
-                              numquam nesciunt vel.
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit mollitia reiciendis
-                              repudiandae, nostrum quaerat labore, vero voluptatem id enim corrupti blanditiis eos
-                              optio. Deserunt aut doloremque autem veritatis quibusdam blanditiis?
+                         <p> Chez nous à Micalex Optique, votre vision est notre priorité et nous mettons tout en œuvre
+                              pour répondre à tous vos besoins car la vue,c’est la vie . Nous proposons des produits et
+                              services sur mesure et selon vos besoins exprimés. Les collections que nous vous offrons
+                              sont toutes sélectionnées avec le plus grand soin.
+                              Comme toutes autres lunetteries Micalex Optique offre:
+
                          </p>
                     </div>
                </section>
@@ -30,13 +28,10 @@
      <section class="offre">
           <div class="paragraph">
                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus culpa sequi illum asperiores
-                    laborum omnis nesciunt unde, qui beatae? Ducimus magni inventore excepturi similique adipisci ab
-                    beatae repellat quidem.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus culpa sequi illum asperiores
-                    laborum omnis nesciunt unde, qui beatae? Ducimus magni inventore excepturi similique adipisci ab
-                    beatae repellat quidem.
+                    Des verres correcteurs de qualité et en amincis pour des forts puissances (verres progressifs,
+                    unifocaux, bifocaux...)
+                    Des lentilles de contact et leurs produits d’entretien, accessoires d’optique: étuis, chainettes,
+                    cordons, nettoyants...
                </p>
           </div>
 
@@ -54,7 +49,6 @@
 
 
 <style lang="scss" scoped>
-
      .service {
           padding: 35px;
           margin: 20px;
@@ -142,9 +136,9 @@
           text-transform: uppercase;
 
           @media (max-width: 550px) {
-                    font-size: 30px;
-                    padding: 10px;
-               }
+               font-size: 30px;
+               padding: 10px;
+          }
 
      }
 
