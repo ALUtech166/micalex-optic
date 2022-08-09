@@ -99,7 +99,7 @@
     </section>
 
     <section class="work-hours">
-      <div class="container">
+      <div>
         <div class="row">
           <div class="col-lg-6">
             <div class="flex">
@@ -181,7 +181,7 @@
     </section>
 
     <section class="products">
-      <div class="container">
+      <div>
         <h1>Nos Produits</h1>
         <div class="row">
           <div class="col-lg-3">
@@ -439,7 +439,7 @@
 
 
   .work-hours {
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     background-color: #CFD2CF;
 
@@ -471,11 +471,11 @@
     }
 
     .row {
-      padding: 10px;
+      padding: 5px;
     }
 
     .col-lg-6 {
-      padding: 15px;
+      padding: 10px;
     }
   }
 
