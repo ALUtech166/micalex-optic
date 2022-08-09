@@ -31,7 +31,7 @@
 
     <section class="objectif">
       <div class="container">
-        <div class="banner" style="top: -100px">
+        <div class="banner">
           <h1>Notre Vision et Objectif</h1>
         </div>
 
@@ -87,7 +87,7 @@
   .objectif {
     background-image: url("../assets/Ok-3.png");
     background-size: cover;
-    height: 50vh;
+    padding: 10px;
     
 
 
@@ -105,15 +105,16 @@
     }
 
     p {
-      padding: 20px;
+      padding: 10px;
       color: #fff;
-      font-size: 15px;
+      font-size: 17px;
+      font-family: 'Jost' sans-serif;
 
       @media (min-width: 550px) {
-        padding: 20px;
+        padding: 10px;
         width: 50%;
         color: #fff;
-        font-size: 20px;
+        font-size: 17px;
       }
 
     }

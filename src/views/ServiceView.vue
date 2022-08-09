@@ -77,7 +77,7 @@
      .offre {
           background-image: url("../assets/Ok-3.png");
           background-size: cover;
-          height: 50vh;
+          height: 75vh;
 
 
           .paragraph {
@@ -85,7 +85,7 @@
 
                @media (min-width: 550px) {
 
-                    padding: 25px;
+                    padding: 15px;
                }
 
 
