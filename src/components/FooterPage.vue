@@ -1,6 +1,6 @@
 <template>
      <div class="footer">
-          <div class="container">
+          <div>
                <div class="row">
                     <div class="col-lg-3">
                          <img class="img-fluid" src="../assets/logo.png" alt="">
@@ -58,7 +58,7 @@
 <style lang="scss" scoped>
 
      .footer {
-          padding: 20px;
+          padding: 30px;
           background-color: #001D6E;
 
           p,

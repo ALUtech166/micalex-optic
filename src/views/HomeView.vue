@@ -53,25 +53,25 @@
 
         <div class="row">
           <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/vente.svg" alt="">
+            <img class="img-fluid" src="../assets/Group9.png" alt="">
             <router-link to="" class="link">
               <h2> Vente </h2>
             </router-link>
           </div>
           <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/vente.svg" alt="">
+            <img class="img-fluid" src="../assets/Group8.png" alt="">
             <router-link to="" class="link">
               <h2> Conseils </h2>
             </router-link>
           </div>
           <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/entretient.svg" alt="">
+            <img class="img-fluid" src="../assets/Group7.png" alt="">
             <router-link to="" class="link">
               <h2> Entretient </h2>
             </router-link>
           </div>
           <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/entretient.svg" alt="">
+            <img class="img-fluid" src="../assets/Group15.png" alt="">
             <router-link to="" class="link">
               <h2> Controle de Vue </h2>
             </router-link>
