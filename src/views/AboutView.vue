@@ -5,7 +5,7 @@
 
   <div class="about">
 
-    <div class="container">
+    <div class="">
       <section class="a-propos">
         <div class="square"></div>
         <div class="description">
