@@ -21,9 +21,10 @@
           <router-link class="link" :to="{ name: 'Contact' }">Contacts</router-link>
         </li>
         <li>
-          <button href="" class="btn btn-outline-primary btn-aminated">Prenez un rendez-vous</button>
+          <router-link to="/consult" class="btn btn-outline btn-aminated">Prenez un rendez-vous</router-link>
         </li>
       </ul>
+
 
       <div class="icon">
         <i @click="toggleMobileNav" v-show="mobile" class="fas fa-bars" :class="{ 'icon-active': mobileNav }"></i>
@@ -48,14 +49,21 @@
             <router-link class="link" :to="{ name: 'Contact' }">Contacts</router-link>
           </li>
           <li>
-            <router-link to="" class="btn btn-outline-primary btn-aminated">Prenez un rendez-vous</router-link>
+            <router-link to="/consult" class="btn btn-outline btn-aminated">Prenez un rendez-vous</router-link>
           </li>
         </ul>
-
-
       </transition>
+
+
+
+
     </nav>
+
+
+
   </header>
+
+
 </template>
 
 <script>
@@ -125,14 +133,15 @@
 </script>
 
 <style lang='scss' scoped>
-  .btn-outline-primary {
-    border: 2px solid #001D6E;
+  .btn-outline {
+    border: 1px solid #001D6E;
     color: #001D6E;
   }
 
-  .btn-outline-primary:hover {
+  .btn-outline:hover {
     background-color: #001D6E;
-    border: 2px solid #001D6E;
+    border: 1px solid #001D6E;
+    color: #fff;
   }
 
   header {

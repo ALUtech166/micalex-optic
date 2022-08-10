@@ -87,7 +87,7 @@
 
                     </p>
                </div>
-               <CarouselImage1></CarouselImage1>
+
 
                <div class="desc">
 
@@ -107,6 +107,8 @@
           </section>
 
      </div>
+
+     <CarouselImage1></CarouselImage1>
 
 
 

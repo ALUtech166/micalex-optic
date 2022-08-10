@@ -76,6 +76,7 @@
           height: 90%;
           border-radius: 5px;
           padding: 20px;
+          background-color: #fff;
 
           .social-media {
                padding: 30px;
