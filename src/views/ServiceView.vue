@@ -73,6 +73,24 @@
                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                          allowfullscreen></iframe>
 
+                    <p>
+                         Les verres photochromiques qui sont des verres à teinte variable et qui à l’intensité de la
+                         lumière du soleil, s’assombrit de façon rapide (en 30 secondes) offrant ainsi un confort
+                         optimal à chaque instant.
+                         DES TRANSITIONS qui permettent à vos verres de s’assombrir plus rapidement et plus foncé à
+                         l’extérieur en fonction de l’intensité lumineuse et de plus claire à l’intérieur.
+                         Anti rayures: C’est un traitement qui permet de rendre les verres plus résistants et aux
+                         frottements et aux rayures.
+                         ANTI SALISSURES: C’est un traitement qui permet de rendre la suface des lunettes extremement
+                         lisses pour empêcher les saletés d’y adhérer.
+                         ANTI HYDROPHOBE: C’est un traitement anti-buais.
+
+                    </p>
+               </div>
+               <CarouselImage1></CarouselImage1>
+
+               <div class="desc">
+
                     <h1>Conseils</h1>
                     <hr>
                     <p>
@@ -84,9 +102,12 @@
                          Micalex Optique propose également une solution adaptée à l’usage de ses lunettes.
 
                     </p>
+
                </div>
           </section>
+
      </div>
+
 
 
 
@@ -96,9 +117,11 @@
 
 <script>
      import CarouselImage from '@/components/UI/CarouselImage.vue'
+     import CarouselImage1 from '@/components/UI/CarouselImage1.vue'
      export default {
           components: {
-               CarouselImage
+               CarouselImage,
+               CarouselImage1
           }
 
      }
@@ -107,12 +130,6 @@
 
 
 <style lang="scss" scoped>
-
-
-
-
-
-
      .service {
           padding: 20px;
 
@@ -144,7 +161,7 @@
           background-size: cover;
           height: 300px;
           padding: 10px;
-          
+
 
 
           .paragraph {
@@ -178,11 +195,9 @@
           @media (min-width: 550px) {
                padding: 20px;
 
-
           }
 
           .desc {
-
 
                h1 {
                     color: #001D6E;
@@ -202,7 +217,7 @@
 
                p {
                     text-align: justify;
-                    font-family: 'Jost' sans-serif;
+                    font-family: 'Jost'sans-serif;
                     font-size: 20px;
                     padding: 5px;
                }
@@ -216,7 +231,7 @@
 
      p {
           text-align: justify;
-          font-family: 'Jost' sans-serif;
+          font-family: 'Jost'sans-serif;
           font-size: 20px;
           font-family: 'Jost', sans-serif;
      }
@@ -231,7 +246,6 @@
 
 
      }
-
 
      .titre {
           top: 50%;
@@ -248,7 +262,6 @@
           }
 
      }
-
 
      @keyframes moveInLeft {
           0% {
@@ -267,8 +280,6 @@
                transform: translate(0) rotate(180deg);
           }
      }
-
-
 
      @keyframes moveInRight {
           0% {

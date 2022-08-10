@@ -1,5 +1,5 @@
 <template>
-     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" ata-aos="zoom-in"
+     <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="true" ata-aos="zoom-in"
           data-aos-easing="linear" data-aos-duration="3000">
           <!-- <div class="carousel-indicators">
                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
@@ -53,12 +53,12 @@
 
                </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1"
                data-bs-slide="prev">
                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1"
                data-bs-slide="next">
                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                <span class="visually-hidden">Next</span>
@@ -69,12 +69,11 @@
 
 <script>
 export default {
-    
+
 }
 </script>
 
 <style scoped>
-
 .banner-container {
      display: flex;
      align-items: center;
