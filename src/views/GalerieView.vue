@@ -8,30 +8,30 @@
                <h1>Notre Galerie</h1>
                <div class="row">
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Micalex/Ok-1.png" alt="">
+                         <img class="img-fluid" src="../assets/img2.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Micalex/Ok-2.png" alt="">
+                         <img class="img-fluid" src="../assets/img1.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Micalex/Ok-3.png" alt="">
+                         <img class="img-fluid" src="../assets/img2.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Micalex/Ok-4.png" alt="">
+                         <img class="img-fluid" src="../assets/img1.jpg" alt="">
                     </div>
                </div>
                <div class="row">
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Micalex/Ok-1.png" alt="">
+                         <img class="img-fluid" src="../assets/img2.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Micalex/Ok-2.png" alt="">
+                         <img class="img-fluid" src="../assets/img1.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Micalex/Ok-3.png" alt="">
+                         <img class="img-fluid" src="../assets/img2.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Micalex/Ok-4.png" alt="">
+                         <img class="img-fluid" src="../assets/img1.jpg" alt="">
                     </div>
                </div>
           </div>
