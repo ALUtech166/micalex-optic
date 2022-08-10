@@ -27,6 +27,7 @@
 
      <section class="offre">
           <div class="paragraph">
+
                <p>
                     Des verres correcteurs de qualité et en amincis pour des forts puissances (verres progressifs,
                     unifocaux, bifocaux...)
@@ -36,6 +37,33 @@
           </div>
 
      </section>
+
+     <div class="container">
+          <section class="entretien">
+
+               <div class="desc">
+                    <p>
+                         Des verres correcteurs de qualité et en amincis pour des forts puissances (verres progressifs,
+                         unifocaux, bifocaux...)
+                         Des lentilles de contact et leurs produits d’entretien, accessoires d’optique: étuis,
+                         chainettes,
+                         cordons, nettoyants...
+                    </p>
+
+                    <h1>Traitement & Entretien</h1>
+                    <hr>
+                    <p>
+                         Des verres correcteurs de qualité et en amincis pour des forts puissances (verres progressifs,
+                         unifocaux, bifocaux...)
+                         Des lentilles de contact et leurs produits d’entretien, accessoires d’optique: étuis,
+                         chainettes,
+                         cordons, nettoyants...
+                    </p>
+               </div>
+          </section>
+     </div>
+
+
 
 
 
@@ -51,13 +79,13 @@
 <style lang="scss" scoped>
      .service {
           padding: 35px;
-          margin: 20px;
 
+          @media (min-width: 550px) {
 
+               padding: 25px;
+          }
 
           .description {
-               padding: 25px;
-
 
                h1 {
                     color: #001D6E;
@@ -99,6 +127,34 @@
                          width: 50%;
                          padding: 25px;
                     }
+               }
+          }
+     }
+
+     .entretien {
+          padding: 25px;
+
+          @media (min-width: 550px) {
+               padding: 25px;
+
+
+          }
+
+          .desc {
+
+
+               h1 {
+                    color: #001D6E;
+                    font-weight: bold;
+                    font-size: 45px;
+                    text-transform: uppercase;
+               }
+
+               hr {
+                    border: 2px solid #001D6E;
+                    background-color: #001D6E;
+                    color: #001D6E;
+                    font-weight: bold;
                }
           }
      }
