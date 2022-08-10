@@ -105,13 +105,13 @@
     }
 
     p {
-      padding: 10px;
+      padding: 5px;
       color: #fff;
       font-size: 17px;
       font-family: 'Jost' sans-serif;
 
       @media (min-width: 550px) {
-        padding: 10px;
+        padding: 5px;
         width: 50%;
         color: #fff;
         font-size: 17px;

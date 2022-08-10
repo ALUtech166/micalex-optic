@@ -34,6 +34,20 @@
                          <img class="img-fluid" src="../assets/img1.jpg" alt="">
                     </div>
                </div>
+               <div class="row">
+                    <div class="col-lg-3">
+                         <img class="img-fluid" src="../assets/img2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                         <img class="img-fluid" src="../assets/img1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                         <img class="img-fluid" src="../assets/img2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                         <img class="img-fluid" src="../assets/img1.jpg" alt="">
+                    </div>
+               </div>
           </div>
      </section>
 

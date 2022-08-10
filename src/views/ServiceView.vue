@@ -114,11 +114,11 @@
 
 
      .service {
-          padding: 35px;
+          padding: 20px;
 
           @media (min-width: 550px) {
 
-               padding: 25px;
+               padding: 20px;
           }
 
           .description {
@@ -142,7 +142,9 @@
      .offre {
           background-image: url("../assets/Ok-3.png");
           background-size: cover;
-          height: 50vh;
+          height: 300px;
+          padding: 10px;
+          
 
 
           .paragraph {
@@ -150,8 +152,8 @@
                font-family: 'Jost', sans-serif;
 
                @media (min-width: 550px) {
-
-                    padding: 20px;
+                    padding: 15px;
+                    margin-top: 20px;
                }
 
 
@@ -159,12 +161,12 @@
                     text-align: left;
                     color: #fff;
                     font-family: 'Jost', sans-serif;
-
+                    font-size: 20px;
 
 
                     @media (min-width: 550px) {
                          width: 50%;
-                         padding: 25px;
+                         padding: 20px;
                     }
                }
           }
@@ -174,7 +176,7 @@
           padding: 25px;
 
           @media (min-width: 550px) {
-               padding: 25px;
+               padding: 20px;
 
 
           }
