@@ -61,6 +61,7 @@
 
 
 <style lang="scss" scoped>
+
      .products {
           padding: 20px;
           background-color: #CFD2CF;
@@ -94,7 +95,11 @@
           }
 
           .row {
-               padding: 5px;
+               padding: 10px;
+
+               .col-lg-3{
+                    padding: 5px;
+               }
           }
 
      }
@@ -106,10 +111,18 @@
 
      }
 
-     img:hover {
-          transform: translateY(25px);
-          transition: 1s ease-in-out;
+     img {
 
+          transition: transform .5s;
+
+     }
+
+     img:hover {
+          -ms-transform: scale(1.2);
+          /* IE 9 */
+          -webkit-transform: scale(1.2);
+          /* Safari 3-8 */
+          transform: scale(1.2);
      }
 
      .header {
