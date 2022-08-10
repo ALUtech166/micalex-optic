@@ -39,9 +39,15 @@
                     <div class="col-lg-3">
                          <h1>Reseaux Sociaux</h1>
                          <ul>
-                              <li><i class="fab fa-facebook"></i> Facebook</li>
-                              <li><i class="fab fa-instagram"></i> Instagram</li>
-                              <li><i class="fab fa-linkedin"></i> LinkedIn</li>
+                              <li><i class="fab fa-facebook"></i>
+                                   <router-link class="link" to="/"> Micalex Optique</router-link>
+                              </li>
+                              <li><i class="fab fa-instagram"></i>
+                                   <router-link class="link" to="/"> Micalex Optique</router-link>
+                              </li>
+                              <li><i class="fab fa-linkedin"></i>
+                                   <router-link class="link" to="/"> Micalex Optique</router-link>
+                              </li>
                          </ul>
                     </div>
                </div>

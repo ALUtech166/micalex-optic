@@ -48,7 +48,7 @@
             <router-link class="link" :to="{ name: 'Contact' }">Contacts</router-link>
           </li>
           <li>
-            <button href="" class="btn btn-outline-primary btn-aminated">Prenez un rendez-vous</button>
+            <router-link class="btn btn-white btn-animated" to="/contact" role="button">Prenez un rendez-vous </router-link>
           </li>
         </ul>
 
@@ -176,8 +176,65 @@
 
       }
 
-      .btn {
-        font-size: 16px;
+      .btn:link,
+      .btn:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 100px;
+        transition: all .2s;
+        position: relative;
+        background-color: #001D6E;
+        color: #fff;
+        font-family: 'jost', sans-serif;
+        font-size: 12px;
+      }
+
+
+      .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgb(0, 0, 0, 2);
+      }
+
+      .btn:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgb(0, 0, 0, 2);
+      }
+
+      .btn-white {
+        background-color: #fff;
+        border: 2px solid #001D6E;
+        color: #001D6E;
+      }
+
+      .btn::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+      }
+
+      .btn-white::after {
+        background-color: #001D6E;
+      }
+
+      .btn:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+
+
+      }
+
+      .btn-aminated {
+        animation: moveInBottom .10s ease-out .75s;
+        animation-fill-mode: backwards;
       }
 
       .link {
@@ -191,7 +248,7 @@
           color: #00afea;
           border-color: #00afea;
           box-shadow: #00b0eac7;
-          background-color: #00b0ea41;
+          background-color: #001D6E;
 
 
         }
