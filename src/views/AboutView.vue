@@ -30,7 +30,7 @@
     </div>
 
     <section class="objectif">
-      <div class="container">
+      <div class="">
         <div class="banner">
           <h1>Notre Vision et Objectif</h1>
         </div>
