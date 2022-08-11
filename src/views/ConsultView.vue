@@ -2,10 +2,11 @@
      <div class="header">
           <h1 class="titre">Prenez un rendez-vous</h1>
      </div>
+     <div class="container">
+          <div class="about">
 
-     <div class="about">
-          <div class="login">
-               <div class="r">
+               <div class="login">
+
                     <div class="form-signin">
 
 
