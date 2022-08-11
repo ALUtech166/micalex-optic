@@ -164,7 +164,7 @@
                 de contact et de visages.
 
                 <br>
-                <button href="" id="button" class="btn btn-outline-primary btn-aminated">Cliquez Ici</button>
+                <router-link to="/consult" id="button" class="btn btn-outline-primary btn-aminated">Cliquez Ici</router-link>
               </h6>
 
             </div>

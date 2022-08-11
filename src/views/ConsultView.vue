@@ -5,7 +5,7 @@
 
      <div class="about">
           <div class="login">
-               <div class="container">
+               <div class="r">
                     <div class="form-signin">
 
 
