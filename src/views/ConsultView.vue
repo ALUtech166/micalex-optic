@@ -5,42 +5,53 @@
 
      <div class="about">
           <div class="login">
-               <div class="form-signin">
-                    <div class="container">
-
-                         <form @submit="register" method="post">
-                              <div class="mb-3">
-                                   <label for="name" class="form-label">Nom*</label>
-                                   <input type="text" class="form-control" id="name" v-model="register.nom" required>
-                              </div>
-                              <div class="mb-3">
-                                   <label for="name" class="form-label">Prenom*</label>
-                                   <input type="text" class="form-control" id="name" v-model="register.prenom" required>
-                              </div>
-                              <div class="mb-3">
-                                   <label for="email" class="form-label">Email*</label>
-                                   <input type="email" class="form-control" id="email" v-model="register.email"
-                                        required>
-                              </div>
-                              <div class="mb-3">
-                                   <label for="number" class="form-label">Telephone*</label>
-                                   <input type="text" class="form-control" id="number" v-model="register.telephone"
-                                        required>
-                              </div>
-                              <div class="mb-3">
-                                   <label for="" class="form-label">Message</label>
-                                   <textarea name="message" id="message" class="form-control" placeholder="Le message"
-                                        rows="5" required=""></textarea>
-                              </div>
+               <div class="container">
+                    <div class="form-signin">
 
 
-                              <button type="submit" class="btn btn-warnings w-100">
+                         <div class="row">
+                              <div class="col-lg-6">
+                                   <form @submit="register" method="post">
+                                        <div class="mb-3">
+                                             <label for="name" class="form-label">Nom*</label>
+                                             <input type="text" class="form-control" id="name" v-model="register.nom"
+                                                  required>
+                                        </div>
+                                        <div class="mb-3">
+                                             <label for="name" class="form-label">Prenom*</label>
+                                             <input type="text" class="form-control" id="name" v-model="register.prenom"
+                                                  required>
+                                        </div>
+                                        <div class="mb-3">
+                                             <label for="email" class="form-label">Email*</label>
+                                             <input type="email" class="form-control" id="email"
+                                                  v-model="register.email" required>
+                                        </div>
+                                        <div class="mb-3">
+                                             <label for="number" class="form-label">Telephone*</label>
+                                             <input type="text" class="form-control" id="number"
+                                                  v-model="register.telephone" required>
+                                        </div>
+                                        <div class="mb-3">
+                                             <label for="" class="form-label">Message</label>
+                                             <textarea name="message" id="message" class="form-control"
+                                                  placeholder="Le message" rows="5" required=""></textarea>
+                                        </div>
 
-                                   <span v-if="loadings.register">Chargement.....</span>
-                                   <span v-if="!loadings.register">Envoyer</span>
 
-                              </button>
-                         </form>
+                                        <button type="submit" class="btn btn-warnings w-100">
+
+                                             <span v-if="loadings.register">Chargement.....</span>
+                                             <span v-if="!loadings.register">Envoyer</span>
+
+                                        </button>
+                                   </form>
+                              </div>
+
+                              <div class="col-lg-6">
+                                   <img class="img-fluid" src="../assets/img1.jpg" alt="">
+                              </div>
+                         </div>
                     </div>
 
                </div>
@@ -79,14 +90,28 @@
 
 
 <style lang="scss" scoped>
+     .flex {
+          display: flex;
+          justify-content: space-between;
+     }
+
+     img {
+          width: 100%;
+          height: 100%;
+     }
+
+     .login {
+          padding: 15px;
+     }
 
      .form-signin {
           width: 100%;
-          max-width: 600px;
           height: 100%;
-          padding: 15px;
-          margin: 5rem auto 0;
+          padding: 25px;
           font-family: 'Jost', sans-serif;
+          border-radius: 5px;
+          box-shadow: 0 5px 10px #0005;
+          background-color: #fff;
      }
 
      label {
@@ -98,24 +123,22 @@
           background-color: #001D6E;
           color: #fff;
 
-          
+
      }
 
-          .btn-warnings:hover {
-               background-color: #001D6E;
-               color: #fff;
-     
-     
-          }
+     .btn-warnings:hover {
+          background-color: #001D6E;
+          color: #fff;
+
+
+     }
 
 
 
      form {
           max-width: 100%;
-          border-radius: 10px;
-          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.273);
-          padding: 20px;
-          background-color: #ffffff;
+          padding: 25px;
+          background-color: #fff;
           font-family: 'Jost', sans-serif;
 
      }
@@ -143,7 +166,6 @@
 
      }
 
-
      .titre {
           top: 50%;
           right: 60%;
@@ -154,8 +176,8 @@
           text-transform: uppercase;
 
           @media (max-width: 550px) {
-               font-size: 30px;
-               padding: 10px;
+               font-size: 25px;
+               padding: 15px;
           }
 
      }
