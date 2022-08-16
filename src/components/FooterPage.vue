@@ -32,7 +32,7 @@
                          <h1>Contacts</h1>
                          <ul>
                               <li>contact@micalexoptique.com</li>
-                              <li>+228 93658616</li>
+                              <li>+228 93658616/+228 99710751/+228 93658894</li>
                               <li>Lomé au quartier Dekon, en face de la Banque NSIA</li>
                          </ul>
                     </div>

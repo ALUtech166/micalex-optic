@@ -117,7 +117,8 @@ form {
 
 label {
      font-weight: bold;
-     font-family: 'Jost';
+     font-family: 'Jost', sans-serif;
+     font-size: 17px;
 }
 
 

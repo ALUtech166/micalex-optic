@@ -33,13 +33,13 @@
                     </div>
 
                </div>
-
+               
                <!--Google Maps-->
 
                <div class="map">
                     <div class="row">
                          <div class="col-lg-6">
-                              <h1>Dekon en face de NSIA BANK</h1>
+                              <h1>Dekon en face de NSIA BANK sur les pavés avant le feu rouge</h1>
                               <div class="mapouter">
                                    <div class="gmap_canvas"><iframe id="gmap_canvas" width="100%" height="400"
                                              src="https://maps.google.com/maps?q=Rue%20275,%20Lom%C3%A9%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -50,7 +50,7 @@
                               </div>
                          </div>
                          <div class="col-lg-6">
-                              <h1>Dans L'Immeuble Marina Bay</h1>
+                              <h1>Immeuble Marina Bay à côté de la pharmacie Jeanne d’Arc</h1>
                               <div class="mapouter">
                                    <div class="gmap_canvas"><iframe id="gmap_canvas" width="100%" height="400"
                                              src="https://maps.google.com/maps?q=Rue%20275,%20Lom%C3%A9%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -87,23 +87,22 @@
 
 
 <style lang="scss" scoped>
+
      .map {
           padding: 20px;
 
           h1 {
                text-align: center;
                text-transform: uppercase;
-               font-size: 30px;
+               font-size: 20px;
                padding: 5px;
                font-family: 'Jost', sans-serif;
                color: #001D6E;
                font-weight: bold;
           }
+
+          
      }
-
-
-
-
 
      .sub-title {
           border: 2px solid #001D6E;
