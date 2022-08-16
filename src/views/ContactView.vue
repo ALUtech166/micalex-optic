@@ -1,6 +1,6 @@
 <template>
 
-     components: { FormUI }, <div class="header">
+     <div class="header">
           <h1 class="titre">Contacts</h1>
      </div>
 
@@ -34,15 +34,34 @@
 
                </div>
 
-               <div class="mapouter">
-                    <div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas"
-                              src="https://maps.google.com/maps?q=Rue%20275,%20Lom%C3%A9%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+               <!--Google Maps-->
 
+               <div class="map">
+                    <div class="row">
+                         <div class="col-lg-6">
+                              <h1>Dekon en face de NSIA BANK</h1>
+                              <div class="mapouter">
+                                   <div class="gmap_canvas"><iframe id="gmap_canvas" width="100%" height="400"
+                                             src="https://maps.google.com/maps?q=Rue%20275,%20Lom%C3%A9%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+                                   </div>
+
+                              </div>
+                         </div>
+                         <div class="col-lg-6">
+                              <h1>Dans L'Immeuble Marina Bay</h1>
+                              <div class="mapouter">
+                                   <div class="gmap_canvas"><iframe id="gmap_canvas" width="100%" height="400"
+                                             src="https://maps.google.com/maps?q=Rue%20275,%20Lom%C3%A9%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+                                   </div>
+
+                              </div>
+                         </div>
                     </div>
-
                </div>
-
 
 
 
@@ -68,6 +87,21 @@
 
 
 <style lang="scss" scoped>
+     .map {
+          padding: 20px;
+
+          h1 {
+               text-align: center;
+               text-transform: uppercase;
+               font-size: 30px;
+               padding: 5px;
+               font-family: 'Jost', sans-serif;
+               color: #001D6E;
+               font-weight: bold;
+          }
+     }
+
+
 
 
 
@@ -135,8 +169,8 @@
           text-transform: uppercase;
 
           @media (max-width: 550px) {
-                    font-size: 30px;
-                    padding: 10px;
+               font-size: 30px;
+               padding: 10px;
           }
 
      }
