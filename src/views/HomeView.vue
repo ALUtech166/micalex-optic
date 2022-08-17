@@ -229,7 +229,7 @@
     </section>
 
     <section class="marques">
-      <div class="container">
+      <div>
         <h1>Nos Marques</h1>
         <vue3-marquee :clone="true">
           <img class="images" height="100" src="../assets/Fendi.png" />
