@@ -378,21 +378,24 @@
   }
 
   .vision {
-    padding: 20px;
+    padding: 10px;
     background-image: url("../assets/Ok-1.png");
-    height: 50vh;
+    
 
     img {
       object-fit: cover;
-      height: 50%;
-      width: 100%;
+      @media (min-width: 550px) {
+          height: 50%;
+            width: 100%;
+        }
+     
 
     }
 
     h1 {
       text-align: center;
       text-transform: uppercase;
-      font-size: 30px;
+      font-size: 20px;
       padding: 5px;
       font-family: 'Jost', sans-serif;
       color: #001D6E;
@@ -421,7 +424,7 @@
 
 
       p {
-        padding: 20px;
+        padding: 18px;
         background-color: #fff;
         border: 2px solid#001D6E;
         font-family: 'Jost', sans-serif;
