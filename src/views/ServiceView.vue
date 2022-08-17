@@ -133,7 +133,7 @@
 
 <style lang="scss" scoped>
      .service {
-          padding: 20px;
+          padding: 10px;
 
           @media (min-width: 550px) {
 
@@ -161,7 +161,6 @@
      .offre {
           background-image: url("../assets/Ok-3.png");
           background-size: cover;
-          height: 300px;
           padding: 10px;
 
 
