@@ -238,8 +238,6 @@
           <img class="images" height="100" src="../assets/Bvlgari.png" />
           <img class="images" height="100" src="../assets/Outika.png" />
 
-
-
         </vue3-marquee>
       </div>
     </section>
@@ -252,10 +250,16 @@
 
 <script>
   // @ is an alias to /src
+import {
+  Vue3Marquee
+} from 'vue3-marquee'
+import 'vue3-marquee/dist/style.css'
 
   export default {
     name: "HomeView",
-    components: {},
+     components: {
+    Vue3Marquee,
+    },
     data() {
       return {
         services: [{
