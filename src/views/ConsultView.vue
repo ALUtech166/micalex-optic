@@ -6,6 +6,11 @@
      <div class="about">
           <div class="login">
                <div class="container">
+                    <div class="pre-header">
+                         <h1>Prenez un rendez-vous</h1>
+                         <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                    </div>
+
                     <div class="form-signin">
 
 
@@ -90,6 +95,26 @@
 
 
 <style lang="scss" scoped>
+     .pre-header {
+          text-align: center;
+          padding: 10px;
+
+          h1 {
+               text-align: center;
+               text-transform: uppercase;
+               font-size: 25px;
+               padding: 5px;
+               font-family: 'Jost', sans-serif;
+               color: #001D6E;
+               font-weight: bold;
+          }
+
+          p {
+               text-align: center;
+               font-family: 'Jost', sans-serif;
+          }
+     }
+
      .flex {
           display: flex;
           justify-content: space-between;

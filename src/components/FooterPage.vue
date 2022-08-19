@@ -33,7 +33,10 @@
                          <ul>
                               <li>contact@micalexoptique.com</li>
                               <li>+228 93658616/+228 99710751/+228 93658894</li>
-                              <li>Lomé au quartier Dekon, en face de la Banque NSIA</li>
+                              <li>
+                                   Lomé au quartier Dekon, en face de la Banque NSIA &
+                                   Immeuble Marina Bay à côté de la pharmacie Jeanne d’Arc
+                              </li>
                          </ul>
                     </div>
                     <div class="col-lg-3">

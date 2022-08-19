@@ -164,7 +164,8 @@
                 de contact et de visages.
 
                 <br>
-                <router-link to="/consult" id="button" class="btn btn-outline-primary btn-aminated">Cliquez Ici</router-link>
+                <router-link to="/consult" id="button" class="btn btn-outline-primary btn-aminated">Cliquez Ici
+                </router-link>
               </h6>
 
             </div>
@@ -244,21 +245,81 @@
 
     <section class="testimony">
       <h1>Ils nous font confiance</h1>
+
+      <br>
+      <div class="row" style="padding: 10px">
+        <div class="col-lg-3">
+          <div class="testy">
+            <img class="images img-fluid" src="../assets/Ok-1.png" alt="">
+            <p>
+              <span>Thierry Konan</span> <br>
+              <em>
+                Lorem ipsum dolor sit amet consectetur,
+                praesentium assumenda laboriosam nulla
+                exercitationem ab
+              </em>
+            </p>
+
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testy">
+            <img class="images img-fluid" src="../assets/Ok-1.png" alt="">
+            <p>
+              <span>Thierry Konan</span> <br>
+              <em>
+                Lorem ipsum dolor sit amet consectetur,
+                praesentium assumenda laboriosam nulla
+                exercitationem ab
+              </em>
+            </p>
+
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testy">
+            <img class="images img-fluid" src="../assets/Ok-1.png" alt="">
+            <p>
+              <span>Thierry Konan</span> <br>
+              <em>
+                Lorem ipsum dolor sit amet consectetur,
+                praesentium assumenda laboriosam nulla
+                exercitationem ab
+              </em>
+            </p>
+
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testy">
+            <img class="images img-fluid" src="../assets/Ok-1.png" alt="">
+            <p>
+              <span>Thierry Konan</span> <br>
+              <em>
+                Lorem ipsum dolor sit amet consectetur,
+                praesentium assumenda laboriosam nulla
+                exercitationem ab
+              </em>
+            </p>
+
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>
 
 <script>
   // @ is an alias to /src
-import {
-  Vue3Marquee
-} from 'vue3-marquee'
-import 'vue3-marquee/dist/style.css'
+  import {
+    Vue3Marquee
+  } from 'vue3-marquee'
+  import 'vue3-marquee/dist/style.css'
 
   export default {
     name: "HomeView",
-     components: {
-    Vue3Marquee,
+    components: {
+      Vue3Marquee,
     },
     data() {
       return {
@@ -384,15 +445,16 @@ import 'vue3-marquee/dist/style.css'
   .vision {
     padding: 10px;
     background-image: url("../assets/Ok-1.png");
-    
+
 
     img {
       object-fit: cover;
+
       @media (min-width: 550px) {
-          height: 50%;
-            width: 100%;
-        }
-     
+        height: 50%;
+        width: 100%;
+      }
+
 
     }
 
@@ -615,7 +677,7 @@ import 'vue3-marquee/dist/style.css'
   }
 
   .testimony {
-    padding: 25px;
+    padding: 15px;
     background-color: #CFD2CF;
     text-align: center;
 
@@ -629,6 +691,33 @@ import 'vue3-marquee/dist/style.css'
       color: #001D6E;
       font-weight: bold;
     }
+
+    span {
+      padding: 5px;
+        font-family: 'Jost', sans-serif;
+        color: #001D6E;
+        font-weight: bold;
+    }
+
+    em {
+      padding: 5px;
+      font-family: 'Jost', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .testy {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .images {
+      border-radius: 75%;
+      width: 100px;
+      height: 100px;
+    }
+
+
   }
 
   .hero {

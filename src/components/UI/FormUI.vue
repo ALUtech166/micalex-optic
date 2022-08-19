@@ -109,10 +109,9 @@ export default {
 form {
      max-width: 100%;
      border-radius: 10px;
-     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.273);
-     padding: 20px;
-     background-color: #ffffff;
-     font-family: 'Jost';
+     padding: 10px;
+     background-color: #fff;
+     font-family: 'Jost', sans-serif;
 }
 
 label {

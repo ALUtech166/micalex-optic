@@ -4,11 +4,16 @@
           <h1 class="titre">Contacts</h1>
      </div>
 
+     <div class="pre-header">
+          <h1>Contactez Nous</h1>
+          <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+     </div>
 
-     <div class="about" style="background-color: #fff">
+     <div class="about">
 
           <div class="">
                <div class="form">
+
 
                     <div class="row">
                          <div class="col-lg-6">
@@ -33,7 +38,7 @@
                     </div>
 
                </div>
-               
+
                <!--Google Maps-->
 
                <div class="map">
@@ -88,6 +93,30 @@
 
 <style lang="scss" scoped>
 
+     .pre-header {
+          text-align: center;
+          padding: 10px;
+
+          h1 {
+               text-align: center;
+               text-transform: uppercase;
+               font-size: 25px;
+               padding: 5px;
+               font-family: 'Jost', sans-serif;
+               color: #001D6E;
+               font-weight: bold;
+          }
+
+          p {
+               text-align: center;
+               font-family: 'Jost', sans-serif;
+          }
+     }
+
+     .about {
+          background-color: #fff;
+     }
+
      .map {
           padding: 20px;
 
@@ -101,7 +130,7 @@
                font-weight: bold;
           }
 
-          
+
      }
 
      .sub-title {
@@ -109,7 +138,7 @@
           height: 90%;
           border-radius: 5px;
           padding: 20px;
-          background-color: #fff;
+          background-color: rgba(255, 255, 255, 0.496);
 
           .social-media {
                padding: 30px;
