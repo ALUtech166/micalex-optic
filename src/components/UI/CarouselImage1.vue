@@ -14,16 +14,16 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                              <img class="d-block w-100 img-fluid" src="../../assets/img2.jpg" alt="">
-
+                              <img src="../../assets/Images/4.jpg" class="d-block w-100 img-fluid" alt="...">
                          </div>
 
-                         <div class="banner">
-                              <img src="../../assets/img1.jpg" class="d-block w-100 img-fluid" alt="...">
-                         </div>
 
                          <div class="banner">
-                              <img src="../../assets/img1.jpg" class="d-block w-100 img-fluid" alt="...">
+                              <img src="../../assets/Images/2.jpg" class="d-block w-100 img-fluid" alt="...">
+                         </div>
+
+                          <div class="banner">
+                              <img src="../../assets/Images/3.jpg" class="d-block w-100 img-fluid" alt="...">
                          </div>
 
 
@@ -35,17 +35,16 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                              <img src="../../assets/img1.jpg" class="d-block w-100 img-fluid" alt="...">
+                              <img src="../../assets/Images/2.jpg" class="d-block w-100 img-fluid" alt="...">
                          </div>
 
 
                          <div class="banner">
-                              <img class="d-block w-100 img-fluid" src="../../assets/img2.jpg" alt="">
-
+                              <img src="../../assets/Images/4.jpg" class="d-block w-100 img-fluid" alt="...">
                          </div>
 
-                         <div class="banner">
-                              <img src="../../assets/img1.jpg" class="d-block w-100 img-fluid" alt="...">
+                          <div class="banner">
+                              <img src="../../assets/Images/3.jpg" class="d-block w-100 img-fluid" alt="...">
                          </div>
 
 

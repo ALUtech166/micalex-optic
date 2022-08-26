@@ -14,16 +14,16 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                              <img class="d-block w-100 img-fluid" src="../../assets/img2.jpg" alt="">
+                              <img class="d-block w-100 img-fluid" src="../../assets/Images/2Micalex.jpg" alt="">
 
                          </div>
 
                          <div class="banner">
-                              <img src="../../assets/img1.jpg" class="d-block w-100 img-fluid" alt="...">
+                              <img src="../../assets/Images/20Micalex.jpg" class="d-block w-100 img-fluid" alt="...">
                          </div>
 
                          <div class="banner">
-                              <img src="../../assets/img1.jpg" class="d-block w-100 img-fluid" alt="...">
+                              <img src="../../assets/Images/23Micalex.jpg" class="d-block w-100 img-fluid" alt="...">
                          </div>
 
 
@@ -35,17 +35,17 @@
                     <div class="banner-container">
 
                          <div class="banner">
-                              <img src="../../assets/img1.jpg" class="d-block w-100 img-fluid" alt="...">
+                              <img src="../../assets/Images/1.jpg" class="d-block w-100 img-fluid" alt="...">
                          </div>
 
 
                          <div class="banner">
-                              <img class="d-block w-100 img-fluid" src="../../assets/img2.jpg" alt="">
+                              <img class="d-block w-100 img-fluid" src="../../assets/Images/2.jpg" alt="">
 
                          </div>
 
                          <div class="banner">
-                              <img src="../../assets/img1.jpg" class="d-block w-100 img-fluid" alt="...">
+                              <img src="../../assets/Images/3.jpg" class="d-block w-100 img-fluid" alt="...">
                          </div>
 
 

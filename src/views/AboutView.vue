@@ -208,7 +208,7 @@
   .objectif {
     background-image: url("../assets/Ok-3.png");
     background-size: cover;
-    padding: 10px;
+    padding: 5px;
 
 
 

@@ -8,44 +8,44 @@
                <h1>Notre Galerie</h1>
                <div class="row">
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/img2.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/img1.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/18Micalex.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/img2.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/14Micalex.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/img1.jpg" alt="">
-                    </div>
-               </div>
-               <div class="row">
-                    <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/img2.jpg" alt="">
-                    </div>
-                    <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/img1.jpg" alt="">
-                    </div>
-                    <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/img2.jpg" alt="">
-                    </div>
-                    <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/img1.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/15Micalex.jpg" alt="">
                     </div>
                </div>
                <div class="row">
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/img2.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/33Micalex.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/img1.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/img2.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/33Micalex.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/img1.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-lg-3">
+                         <img class="img-fluid" src="../assets/Images/33Micalex.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                         <img class="img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                         <img class="img-fluid" src="../assets/Images/33Micalex.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                         <img class="img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
                     </div>
                </div>
           </div>
@@ -117,13 +117,6 @@
 
      }
 
-     img:hover {
-          -ms-transform: scale(1.2);
-          /* IE 9 */
-          -webkit-transform: scale(1.2);
-          /* Safari 3-8 */
-          transform: scale(1.2);
-     }
 
      .header {
           height: 50vh;
