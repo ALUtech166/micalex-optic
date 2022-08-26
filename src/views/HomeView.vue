@@ -9,29 +9,35 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img src="../assets/Ok.png" class="d-block w-100" alt="...">
+          <img src="../assets/Slide-1.png" class="d-block w-100 img-fluid" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>
               Confiez - Nous <br>
               Votre Regard
 
             </h5>
-            <p><button type="button" class="btn btn-light">Prenez Un rendez-vous chez Nous</button></p>
+            <p>
+              <router-link type="button" class="btn btn-light" to="/consult">Prenez Un rendez-vous chez Nous
+              </router-link>
+            </p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="../assets/Ok-3.png" class="d-block w-100" alt="...">
+          <img src="../assets/Slide-2.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>
               Choisissez des <br>
               Lunettes Selon votre <br>
               Forme de Visage
             </h5>
-            <p><button type="button" class="btn btn-light">Prenez Un rendez-vous chez Nous</button></p>
+            <p>
+              <router-link type="button" class="btn btn-light" to="/consult">Prenez Un rendez-vous chez Nous
+              </router-link>
+            </p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../assets/Ok-4.png" class="d-block w-100" alt="...">
+          <img src="../assets/Slide-3.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>
               Optimiser Votre Vision <br>
@@ -39,7 +45,10 @@
               Les meilleurs Lunettes
 
             </h5>
-            <p><button type="button" class="btn btn-light">Prenez Un rendez-vous chez Nous</button></p>
+            <p>
+              <router-link type="button" class="btn btn-light" to="/consult">Prenez Un rendez-vous chez Nous
+              </router-link>
+            </p>
           </div>
         </div>
       </div>
@@ -173,7 +182,7 @@
           </div>
 
           <div class="photo">
-            <img class="img-fluid" src="../assets/Ok-2.png" alt="">
+            <img class="img-fluid" src="../assets/Images/20Micalex.jpg" alt="">
           </div>
 
         </div>
@@ -186,42 +195,42 @@
         <h1>Nos Produits</h1>
         <div class="row">
           <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Micalex/Ok-1.png" alt="">
+            <img class="img-fluid" src="../assets/Lunettes/AL68265102.jpg" alt="">
 
             <h3>Outika</h3>
           </div>
           <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Micalex/Ok-2.png" alt="">
+            <img class="img-fluid" src="../assets/Lunettes/AL68265103.jpg" alt="">
 
             <h3>Fendi</h3>
           </div>
           <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Micalex/Ok-3.png" alt="">
+            <img class="img-fluid" src="../assets/Lunettes/AL68272524.jpg" alt="">
             <h3>Dior</h3>
           </div>
           <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Micalex/Ok-4.png" alt="">
+            <img class="img-fluid" src="../assets/Lunettes/AL68308570.jpg" alt="">
 
             <h3>Outika</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Micalex/Ok-1.png" alt="">
+            <img class="img-fluid" src="../assets/Lunettes/AL68296593.jpg" alt="">
 
             <h3>Outika</h3>
           </div>
           <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Micalex/Ok-2.png" alt="">
+            <img class="img-fluid" src="../assets/Lunettes/AL68392545.jpg" alt="">
 
             <h3>Fendi</h3>
           </div>
           <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Micalex/Ok-3.png" alt="">
+            <img class="img-fluid" src="../assets/Lunettes/AL68395545.jpg" alt="">
             <h3>Dior</h3>
           </div>
           <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Micalex/Ok-4.png" alt="">
+            <img class="img-fluid" src="../assets/Lunettes/AL68396101.jpg" alt="">
 
             <h3>Outika</h3>
           </div>
@@ -250,7 +259,7 @@
       <div class="row" style="padding: 10px">
         <div class="col-lg-3">
           <div class="testy">
-            <img class="images img-fluid" src="../assets/Ok-1.png" alt="">
+            <img class="images img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
             <p>
               <span>Thierry Konan</span> <br>
               <em>
@@ -264,7 +273,7 @@
         </div>
         <div class="col-lg-3">
           <div class="testy">
-            <img class="images img-fluid" src="../assets/Ok-1.png" alt="">
+            <img class="images img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
             <p>
               <span>Thierry Konan</span> <br>
               <em>
@@ -278,7 +287,7 @@
         </div>
         <div class="col-lg-3">
           <div class="testy">
-            <img class="images img-fluid" src="../assets/Ok-1.png" alt="">
+            <img class="images img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
             <p>
               <span>Thierry Konan</span> <br>
               <em>
@@ -292,7 +301,7 @@
         </div>
         <div class="col-lg-3">
           <div class="testy">
-            <img class="images img-fluid" src="../assets/Ok-1.png" alt="">
+            <img class="images img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
             <p>
               <span>Thierry Konan</span> <br>
               <em>
@@ -351,7 +360,7 @@
 
 <style lang="scss" scoped>
   .images {
-    margin: 5px;
+    margin: 2px;
   }
 
   h5 {
@@ -444,7 +453,9 @@
 
   .vision {
     padding: 10px;
-    background-image: url("../assets/Ok-1.png");
+    background-image: url("../assets/Images/2Micalex.jpg");
+    background-size: cover;
+    width: 100%;
 
 
     img {
@@ -621,10 +632,7 @@
     background-color: #CFD2CF;
     text-align: center;
 
-    img {
-      border-radius: 5px;
-      box-shadow: 0 5px 10px #0005;
-    }
+    
 
     h1 {
       text-align: center;

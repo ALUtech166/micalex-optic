@@ -8,7 +8,13 @@
                <div class="container">
                     <div class="pre-header">
                          <h1>Prenez un rendez-vous</h1>
-                         <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                         <p>Vous pouvez simplement remplir le formulaire ci-dessous et cliquer sur « Envoyer » pour
+                              soumettre une demande.
+                         </p>
+                         <p>
+                              Notre équipe du service clientèle prendra contact avec vous dans
+                              les 3 jours ouvrables.
+                         </p>
                     </div>
 
                     <div class="form-signin">
@@ -38,6 +44,10 @@
                                                   v-model="register.telephone" required>
                                         </div>
                                         <div class="mb-3">
+                                             <label for="number" class="form-label">Les Ordonnances*</label>
+                                             <input type="file" class="form-control" id="number" required>
+                                        </div>
+                                        <div class="mb-3">
                                              <label for="" class="form-label">Message</label>
                                              <textarea name="message" id="message" class="form-control"
                                                   placeholder="Le message" rows="5" required=""></textarea>
@@ -54,7 +64,7 @@
                               </div>
 
                               <div class="col-lg-6">
-                                   <img class="img-fluid" src="../assets/img1.jpg" alt="">
+                                   <img src="../assets/Images/21Micalex.jpg" alt="">
                               </div>
                          </div>
                     </div>
@@ -112,6 +122,7 @@
           p {
                text-align: center;
                font-family: 'Jost', sans-serif;
+               font-size: 16px;
           }
      }
 

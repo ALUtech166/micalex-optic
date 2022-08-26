@@ -157,7 +157,7 @@
       position: relative;
       display: flex;
       flex-direction: row;
-      padding: 12px 0;
+      padding: 5px 0;
       transition: 0.5s ease all;
       width: 90%;
       margin: 0 auto;
@@ -178,7 +178,7 @@
 
       li {
         text-transform: uppercase;
-        padding: 14px;
+        padding: 10px;
         margin-left: 15px;
         font-family: 'Jost', sans-serif;
         font-weight: bold;
@@ -186,7 +186,7 @@
       }
 
       .btn {
-        font-size: 16px;
+        font-size: 15px;
       }
 
       .link {
