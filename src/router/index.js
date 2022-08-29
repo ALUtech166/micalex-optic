@@ -6,6 +6,7 @@ import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue"
 import ServiceView from "@/views/ServiceView.vue";
 import GalerieView from "@/views/GalerieView.vue";
+import BlogView from "@/views/BlogView.vue";
 import ContactView from "@/views/ContactView.vue";
 import ConsultView from "@/views/ConsultView.vue";
 
@@ -31,6 +32,11 @@ const routes = [{
     path: "/galerie",
     name: "Galerie",
     component: GalerieView,
+  },
+  {
+    path: "/blog",
+    name: "Blog",
+    component: BlogView,
   },
 
   {

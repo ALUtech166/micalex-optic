@@ -159,10 +159,67 @@
     </section>
 
     <section class="contact">
-      <div class="">
-        <div class="box">
-          <div class="content">
-            <h1>Prendre un rendez-vous <br>
+      <div class="box" style="padding: 15px">
+        <h1 style="text-align: center">Prendre un rendez-vous <br>
+          chez nos Experts</h1>
+        <div class="container">
+          <div class="form-signin">
+
+
+            <div class="row">
+              <div class="col-lg-6">
+                <form @submit="register" method="post">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Nom*</label>
+                    <input type="text" class="form-control" id="name" v-model="register.nom" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Prenom*</label>
+                    <input type="text" class="form-control" id="name" v-model="register.prenom" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email*</label>
+                    <input type="email" class="form-control" id="email" v-model="register.email" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="number" class="form-label">Telephone*</label>
+                    <input type="text" class="form-control" id="number" v-model="register.telephone" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="number" class="form-label">Les Ordonnances*</label>
+                    <input type="file" class="form-control" id="number" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="number" class="form-label">Les Agences*</label>
+                    <select name="select" class="form-control" id="">
+                      <option value="1" disabled>Choisissez l'agence</option>
+                      <option value="2">Agence de Dekon</option>
+                      <option value="3">Agence de la Plage</option>
+                    </select>
+
+                  </div>
+                  <div class="mb-3">
+                    <label for="" class="form-label">Message</label>
+                    <textarea name="message" id="message" class="form-control" placeholder="Le message" rows="5"
+                      required=""></textarea>
+                  </div>
+
+
+                  <button type="submit" class="btn btn-warnings w-100">
+
+                    <span v-if="loadings.register">Chargement.....</span>
+                    <span v-if="!loadings.register">Envoyer</span>
+
+                  </button>
+                </form>
+              </div>
+
+              <div class="col-lg-6">
+                <img class="img-fluid" src="../assets/Images/21Micalex.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <!-- <h1>Prendre un rendez-vous <br>
               chez nos Experts</h1>
             <div>
               <h6>
@@ -182,9 +239,9 @@
           </div>
 
           <div class="photo">
-            <img class="img-fluid" src="../assets/Images/20Micalex.jpg" alt="">
+            <img class="img-fluid" src="../assets/vision.jpg" alt="">
           </div>
-
+ -->
         </div>
       </div>
 
@@ -202,32 +259,32 @@
           <div class="col-lg-3">
             <img class="img-fluid" src="../assets/Lunettes/AL68265103.jpg" alt="">
 
-            <h3>Fendi</h3>
+            <h3>Marc Jacob</h3>
           </div>
           <div class="col-lg-3">
             <img class="img-fluid" src="../assets/Lunettes/AL68272524.jpg" alt="">
-            <h3>Dior</h3>
+            <h3>Tommy Hilfiger</h3>
           </div>
           <div class="col-lg-3">
             <img class="img-fluid" src="../assets/Lunettes/AL68308570.jpg" alt="">
 
-            <h3>Outika</h3>
+            <h3>Bvlgari</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-3">
             <img class="img-fluid" src="../assets/Lunettes/AL68296593.jpg" alt="">
 
-            <h3>Outika</h3>
+            <h3>Versace</h3>
           </div>
           <div class="col-lg-3">
             <img class="img-fluid" src="../assets/Lunettes/AL68392545.jpg" alt="">
 
-            <h3>Fendi</h3>
+            <h3>Quartier</h3>
           </div>
           <div class="col-lg-3">
             <img class="img-fluid" src="../assets/Lunettes/AL68395545.jpg" alt="">
-            <h3>Dior</h3>
+            <h3>Fendi</h3>
           </div>
           <div class="col-lg-3">
             <img class="img-fluid" src="../assets/Lunettes/AL68396101.jpg" alt="">
@@ -332,6 +389,16 @@
     },
     data() {
       return {
+        loadings: {
+          register: false,
+        },
+        register: {
+          nom: '',
+          prenom: '',
+          email: '',
+          telephone: '',
+          password: ''
+        },
         services: [{
             id: '1',
             img: "@/assets/vente.svg",
@@ -362,6 +429,61 @@
   .images {
     margin: 2px;
   }
+
+
+
+  .login {
+    padding: 15px;
+  }
+
+  .form-signin {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    font-family: 'Jost', sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #0005;
+    background-color: #fff;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    form {
+      max-width: 100%;
+      padding: 25px;
+      background-color: #fff;
+      font-family: 'Jost', sans-serif;
+
+    }
+
+    label {
+      font-family: 'Jost', sans-serif;
+      font-weight: bold;
+    }
+
+    .btn-warnings {
+      background-color: #001D6E;
+      color: #fff;
+
+
+    }
+
+    .btn-warnings:hover {
+      background-color: #001D6E;
+      color: #fff;
+
+
+    }
+
+    .flex {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+
 
   h5 {
     font-size: 30px;
@@ -572,21 +694,14 @@
 
     }
 
-    .box {
-      display: flex;
-      justify-content: space-between;
 
-      @media (max-width: 550px) {
-        display: flex;
-        flex-direction: column;
-      }
-    }
 
 
     .content {
       text-align: center;
-      padding: 20px;
+      padding: 30px;
       align-content: center;
+      top: 30vmin;
 
 
       h6 {
@@ -632,7 +747,7 @@
     background-color: #CFD2CF;
     text-align: center;
 
-    
+
 
     h1 {
       text-align: center;
@@ -652,6 +767,7 @@
       padding: 10px;
       color: #001D6E;
       font-weight: bold;
+      text-transform: uppercase;
 
 
     }
@@ -702,9 +818,9 @@
 
     span {
       padding: 5px;
-        font-family: 'Jost', sans-serif;
-        color: #001D6E;
-        font-weight: bold;
+      font-family: 'Jost', sans-serif;
+      color: #001D6E;
+      font-weight: bold;
     }
 
     em {

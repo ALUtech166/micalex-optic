@@ -1,6 +1,6 @@
 <template>
      <div class="footer">
-          <div>
+          <div class="container">
                <div class="row">
                     <div class="col-lg-3">
                          <img class="img-fluid" src="../assets/logo.png" alt="">
@@ -32,11 +32,14 @@
                          <h1>Contacts</h1>
                          <ul>
                               <li>contact@micalexoptique.com</li>
-                              <li>+228 93658616/+228 99710751/+228 93658894</li>
+                              <li>+22893658616/+228 99710751/+228 93658894</li>
                               <li>
-                                   Lomé au quartier Dekon, en face de la Banque NSIA &
-                                   Immeuble Marina Bay à côté de la pharmacie Jeanne d’Arc
+                                   Lomé au quartier Dekon, en face de la Banque NSIA
                               </li>
+
+                             <!--  <li>
+                                   Immeuble Marina Bay à côté de la pharmacie Jeanne d’Arc
+                              </li> -->
                          </ul>
                     </div>
                     <div class="col-lg-3">
@@ -53,6 +56,17 @@
                               </li>
                          </ul>
                     </div>
+               </div>
+          </div>
+
+          <hr>
+
+          <div class="copyright">
+               <div class="text-center">
+                    <a class="social-media" href="#"><i class="fab fa-facebook"></i></a>
+                    <a class="social-media" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="social-media" href="#"><i class="fab fa-linkedin"></i></a>
+                    <p>&copy; Copyright 2022 Micalex Optique. developé par <a href="http://www.mekengroup.com" target="_blank" rel="noopener noreferrer">MEG</a></p>
                </div>
           </div>
      </div>
@@ -75,11 +89,14 @@
           li {
                color: #fff;
                font-family: 'Jost', sans-serif;
+               font-weight: 500;
+               text-align: justify;
 
           }
 
           p {
                font-size: 15px;
+               font-family: 'Jost', sans-serif;
           }
 
           .col-lg-4 {
@@ -89,6 +106,8 @@
           ul,
           li {
                font-size: 17px;
+               font-family: 'Jost', sans-serif;
+               font-weight: 900;
 
           }
 
@@ -102,8 +121,37 @@
           h1 {
                text-transform: uppercase;
                font-size: 20px;
+               font-family: 'Jost', sans-serif;
                
 
+          }
+
+          hr {
+               border: 0.5px solid white;
+               color: #fff;
+               background-color: #fff;
+          }
+
+          .copyright {
+               padding: 5px;
+               
+               p {
+                    font-family: 'Jost', sans-serif;
+                    font-weight: 600;
+                    text-align: center;
+               }
+
+               a {
+                    text-decoration: none;
+                    font-family: 'Jost', sans-serif;
+                    font-weight: 900;
+                    padding: 2px;
+               }
+
+               .social-media {
+                    color: #fff;
+                    padding: 2px;
+               }
           }
      }
 </style>

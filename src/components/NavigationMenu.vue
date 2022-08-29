@@ -18,6 +18,9 @@
           <router-link class="link" :to="{ name: 'Galerie' }">Galerie</router-link>
         </li>
         <li>
+          <router-link class="link" :to="{ name: 'Blog' }">Blog</router-link>
+        </li>
+        <li>
           <router-link class="link" :to="{ name: 'Contact' }">Contacts</router-link>
         </li>
         <li>
@@ -45,6 +48,9 @@
           <li>
             <router-link class="link" :to="{ name: 'Galerie' }">Galerie</router-link>
           </li>
+          <li>
+          <router-link class="link" :to="{ name: 'Blog' }">Blog</router-link>
+        </li>
           <li>
             <router-link class="link" :to="{ name: 'Contact' }">Contacts</router-link>
           </li>

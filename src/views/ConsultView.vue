@@ -48,6 +48,15 @@
                                              <input type="file" class="form-control" id="number" required>
                                         </div>
                                         <div class="mb-3">
+                                             <label for="number" class="form-label">Les Agences*</label>
+                                             <select name="select" class="form-control" id="">
+                                                  <option value="1" disabled>Choisissez l'agence</option>
+                                                  <option value="2">Agence de Dekon</option>
+                                                  <option value="3">Agence de la Plage</option>
+                                             </select>
+                                             
+                                        </div>
+                                        <div class="mb-3">
                                              <label for="" class="form-label">Message</label>
                                              <textarea name="message" id="message" class="form-control"
                                                   placeholder="Le message" rows="5" required=""></textarea>
@@ -64,7 +73,7 @@
                               </div>
 
                               <div class="col-lg-6">
-                                   <img src="../assets/Images/21Micalex.jpg" alt="">
+                                   <img class="img-fluid" src="../assets/Images/21Micalex.jpg" alt="">
                               </div>
                          </div>
                     </div>
@@ -80,7 +89,6 @@
 
 <script>
      export default {
-          layout: "karaevents",
           data() {
                return {
                     loadings: {
