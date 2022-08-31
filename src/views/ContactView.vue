@@ -92,7 +92,6 @@
 
 
 <style lang="scss" scoped>
-
      .pre-header {
           text-align: center;
           padding: 10px;

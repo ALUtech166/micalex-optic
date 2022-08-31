@@ -6,8 +6,8 @@
      <section class="products">
           <div>
                <h1>Notre Galerie</h1>
-               <div class="row">
-                    <div class="col-lg-3">
+               <div class="row" v-if="galeries && galeries.length">
+                    <div class="col-lg-3" v-for="galerie of galeries" :key="galerie.id">
                          <img class="img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
@@ -20,7 +20,7 @@
                          <img class="img-fluid" src="../assets/Images/15Micalex.jpg" alt="">
                     </div>
                </div>
-               <div class="row">
+               <!-- <div class="row">
                     <div class="col-lg-3">
                          <img class="img-fluid" src="../assets/Images/33Micalex.jpg" alt="">
                     </div>
@@ -47,16 +47,41 @@
                     <div class="col-lg-3">
                          <img class="img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
                     </div>
-               </div>
+               </div> -->
           </div>
      </section>
 
 </template>
-
 <script>
+  import axios from 'axios'
+  import config from '../../config.js'
 
+  export default {
+    data() {
+      return {
+        config,
+        galeries: [],
+        errors: []
+        
+      }
+    },
 
+   created() {
+      axios.get(`/galerie?populate=*`)
+        .then(response => {
+          this.galeries = response.data.data
+          console.log()
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
+    
+  }
+
+ }
 </script>
+
 
 
 

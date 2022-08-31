@@ -168,48 +168,45 @@
 
             <div class="row">
               <div class="col-lg-6">
-                <form @submit="register" method="post">
+                <form @submit.prevent="getAppointment" method="post">
                   <div class="mb-3">
                     <label for="name" class="form-label">Nom*</label>
-                    <input type="text" class="form-control" id="name" v-model="register.nom" required>
+                    <input type="text" class="form-control" id="name" v-model="form.nom" required>
                   </div>
                   <div class="mb-3">
                     <label for="name" class="form-label">Prenom*</label>
-                    <input type="text" class="form-control" id="name" v-model="register.prenom" required>
+                    <input type="text" class="form-control" id="name" v-model="form.prenom" required>
                   </div>
                   <div class="mb-3">
                     <label for="email" class="form-label">Email*</label>
-                    <input type="email" class="form-control" id="email" v-model="register.email" required>
+                    <input type="email" class="form-control" id="email" v-model="form.email" required>
                   </div>
                   <div class="mb-3">
                     <label for="number" class="form-label">Telephone*</label>
-                    <input type="text" class="form-control" id="number" v-model="register.telephone" required>
+                    <input type="text" class="form-control" id="number" v-model="form.telephone" required>
                   </div>
                   <div class="mb-3">
                     <label for="number" class="form-label">Les Ordonnances*</label>
-                    <input type="file" class="form-control" id="number" required>
+                    <input type="file" class="form-control" id="number" accept="image/*" required multiple>
                   </div>
                   <div class="mb-3">
                     <label for="number" class="form-label">Les Agences*</label>
-                    <select name="select" class="form-control" id="">
+                    <select name="select" class="form-control" id="" v-model="form.agence">
                       <option value="1" disabled>Choisissez l'agence</option>
-                      <option value="2">Agence de Dekon</option>
-                      <option value="3">Agence de la Plage</option>
+                      <option value="Agence de Dekon">Agence de Dekon</option>
+                      <option value="Agence de la Plage">Agence de la Plage</option>
                     </select>
 
                   </div>
                   <div class="mb-3">
                     <label for="" class="form-label">Message</label>
                     <textarea name="message" id="message" class="form-control" placeholder="Le message" rows="5"
-                      required=""></textarea>
+                      required="" v-model="form.message"></textarea>
                   </div>
 
 
-                  <button type="submit" class="btn btn-warnings w-100">
-
-                    <span v-if="loadings.register">Chargement.....</span>
-                    <span v-if="!loadings.register">Envoyer</span>
-
+                  <button type="submit" :disabled="loading" class="btn btn-warnings w-100">
+                    Envoyer
                   </button>
                 </form>
               </div>
@@ -250,13 +247,13 @@
     <section class="products">
       <div>
         <h1>Nos Produits</h1>
-        <div class="row">
-          <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Lunettes/AL68265102.jpg" alt="">
+        <div class="row" v-if="produits && produits.length">
+          <div class="col-lg-3" v-for="produit of produits" :key="produit.id">
+            <img class="img-fluid" src="{{ `${config.backend_url}/${produit.attributes.images.data.url}` }}" alt="">
 
-            <h3>Outika</h3>
+            <h3>{{ produit.attributes.nom }}</h3>
           </div>
-          <div class="col-lg-3">
+          <!--   <div class="col-lg-3">
             <img class="img-fluid" src="../assets/Lunettes/AL68265103.jpg" alt="">
 
             <h3>Marc Jacob</h3>
@@ -268,10 +265,10 @@
           <div class="col-lg-3">
             <img class="img-fluid" src="../assets/Lunettes/AL68308570.jpg" alt="">
 
-            <h3>Bvlgari</h3>
-          </div>
+            <h3>Bvlgari</h3> -->
         </div>
-        <div class="row">
+      </div>
+      <!-- <div class="row">
           <div class="col-lg-3">
             <img class="img-fluid" src="../assets/Lunettes/AL68296593.jpg" alt="">
 
@@ -291,14 +288,14 @@
 
             <h3>Outika</h3>
           </div>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
     </section>
 
     <section class="marques">
-      <div>
-        <h1>Nos Marques</h1>
-        <vue3-marquee :clone="true">
+      <h1>Nos Marques</h1>
+      <div v-if="marques && marques.length">
+        <vue3-marquee :clone="true" v-for="marque of marques" :key="marque.id">
           <img class="images" height="100" src="../assets/Fendi.png" />
           <img class="images" height="100" src="../assets/Versace.png" />
           <img class="images" height="100" src="../assets/Outika.png" />
@@ -313,8 +310,20 @@
       <h1>Ils nous font confiance</h1>
 
       <br>
-      <div class="row" style="padding: 10px">
-        <div class="col-lg-3">
+      <div class="row" style="padding: 10px" v-if="testimoniales && testimoniales.length">
+        <div class="col-lg-3" v-for="testimoniale of testimoniales" :key="testimoniale.id">
+          <div class="testy">
+            <img class="images img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
+            <p>
+              <span>{{ testimoniale.attributes.nom }}</span> <br>
+              <em>
+                {{ testimoniale.attributes.commentaire }}
+              </em>
+            </p>
+
+          </div>
+        </div>
+        <!--  <div class="col-lg-3">
           <div class="testy">
             <img class="images img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
             <p>
@@ -355,21 +364,7 @@
             </p>
 
           </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="testy">
-            <img class="images img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
-            <p>
-              <span>Thierry Konan</span> <br>
-              <em>
-                Lorem ipsum dolor sit amet consectetur,
-                praesentium assumenda laboriosam nulla
-                exercitationem ab
-              </em>
-            </p>
-
-          </div>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>
@@ -381,6 +376,8 @@
     Vue3Marquee
   } from 'vue3-marquee'
   import 'vue3-marquee/dist/style.css'
+  import axios from 'axios'
+  import config from '../../config.js'
 
   export default {
     name: "HomeView",
@@ -389,39 +386,116 @@
     },
     data() {
       return {
-        loadings: {
-          register: false,
-        },
-        register: {
+        loading: false,
+        config,
+        form: {
           nom: '',
-          prenom: '',
+          prenoms: '',
           email: '',
           telephone: '',
-          password: ''
+          agence: '',
+          message: ''
         },
-        services: [{
-            id: '1',
-            img: "@/assets/vente.svg",
-            name: 'Vente'
-          },
-          {
-            id: '2',
-            img: "@/assets/entretient.svg",
-            name: 'Entretien'
-          },
-          {
-            id: '3',
-            img: "@/assets/conseils.svg",
-            name: 'Conseils'
-          },
-          {
-            id: '4',
-            img: "@/assets/conseils-1.svg",
-            name: 'Controle de Vue'
-          }
-        ]
+        produits: [],
+        testimoniales: [],
+        marques: [],
+        errors: [],
+
       }
     },
+
+    created() {
+      axios.get(`/nos-produits?populate=*`)
+        .then(response => {
+          this.produits = response.data.data
+          console.log()
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
+
+      axios.get(`/testimonials`)
+        .then(response => {
+          this.testimoniales = response.data.data
+          console.log()
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
+
+      axios.get(`/marques`)
+        .then(response => {
+          this.marques = response.data.data
+          console.log()
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
+    },
+
+    methods: {
+
+      async getAppointment() {
+        this.loading = true;
+        let formdata = new FormData();
+        formdata.append("nom", this.form.nom)
+        formdata.append("prenoms", this.form.prenoms)
+        formdata.append("email", this.form.email)
+        //formdata.append("ordonnances", this.form.ordonnances)
+        formdata.append("telephone", this.form.telephone)
+        formdata.append("agence", this.form.agence)
+        formdata.append("message", this.form.message)
+        //bodyFormData.append('fileInfo', '{"caption":"caption text","alternativeText":"alternative text"}')
+        await axios.post(`/appointments`, {
+              data: this.form
+            }
+            /* , {
+                                          headers: {
+                                               "Content-Type": "multipart/form-data",
+                                          }
+                                } */
+          )
+          .then(response => {
+            this.loading = false
+            console.log(response);
+            this.$swal.fire({
+              text: 'Votre demande a étè prise en compte, Nous vous contacterons sous peu',
+              toast: true,
+              showConfirmButton: false,
+              icon: 'success',
+              position: 'top-right',
+              timer: 4000
+
+            })
+
+            this.form = {
+              nom: '',
+              prenoms: '',
+              email: '',
+              //ordonnances: '',
+              telephone: '',
+              agence: '',
+              message: ''
+            };
+
+
+
+
+          }).catch(error => {
+            console.log(error)
+          })
+      },
+
+
+      async fileAdded(event) {
+        this.form.ordonnances = event.target.files
+      }
+
+    },
+
   };
 </script>
 
@@ -429,8 +503,6 @@
   .images {
     margin: 2px;
   }
-
-
 
   .login {
     padding: 15px;

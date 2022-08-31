@@ -82,8 +82,33 @@
 </template>
 
 <script>
+  import axios from 'axios'
+  import config from '../../config.js'
 
+  export default {
+    data() {
+      return {
+        config,
+        abouts: [],
+        errors: []
+        
+      }
+    },
 
+   created() {
+      axios.get(`/abouts`)
+        .then(response => {
+          this.abouts = response.data.data
+          console.log()
+
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
+    
+  }
+
+ }
 </script>
 
 
