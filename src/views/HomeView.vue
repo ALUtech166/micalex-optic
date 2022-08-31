@@ -249,7 +249,7 @@
         <h1>Nos Produits</h1>
         <div class="row" v-if="produits && produits.length">
           <div class="col-lg-3" v-for="produit of produits" :key="produit.id">
-            <img class="img-fluid" src="{{ `${config.backend_url}/${produit.attributes.images.data.url}` }}" alt="">
+            <img class="img-fluid" :src=" `${config.backend_url}${produit.attributes.image.data.attributes.url}` " alt="">
 
             <h3>{{ produit.attributes.nom }}</h3>
           </div>
@@ -294,9 +294,13 @@
 
     <section class="marques">
       <h1>Nos Marques</h1>
-      <div v-if="marques && marques.length">
-        <vue3-marquee :clone="true" v-for="marque of marques" :key="marque.id">
-          <img class="images" height="100" src="../assets/Fendi.png" />
+      <div>
+        <vue3-marquee :clone="true">
+        <!-- <div>
+          <img class="images img-fluid" :src=" `${config.backend_url}${marque.attributes.image.data.attributes.url}`" />
+        </div> -->
+          
+        <img class="images" height="100" src="../assets/Fendi.png" />
           <img class="images" height="100" src="../assets/Versace.png" />
           <img class="images" height="100" src="../assets/Outika.png" />
           <img class="images" height="100" src="../assets/Bvlgari.png" />
@@ -313,7 +317,7 @@
       <div class="row" style="padding: 10px" v-if="testimoniales && testimoniales.length">
         <div class="col-lg-3" v-for="testimoniale of testimoniales" :key="testimoniale.id">
           <div class="testy">
-            <img class="images img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
+            <img class="images img-fluid" :src=" `${config.backend_url}${testimoniale.attributes.avatar.data.attributes.url}` " alt="">
             <p>
               <span>{{ testimoniale.attributes.nom }}</span> <br>
               <em>
@@ -405,7 +409,7 @@
     },
 
     created() {
-      axios.get(`/nos-produits?populate=*`)
+      axios.get(`/all-produits?populate=*`)
         .then(response => {
           this.produits = response.data.data
           console.log()
@@ -415,7 +419,7 @@
           this.errors.push(e)
         })
 
-      axios.get(`/testimonials`)
+      axios.get(`/testimonials?populate=*`)
         .then(response => {
           this.testimoniales = response.data.data
           console.log()
@@ -425,7 +429,7 @@
           this.errors.push(e)
         })
 
-      axios.get(`/marques`)
+      axios.get(`/nos-marques?populate=*`)
         .then(response => {
           this.marques = response.data.data
           console.log()
@@ -524,7 +528,7 @@
 
     form {
       max-width: 100%;
-      padding: 25px;
+      padding: 10px;
       background-color: #fff;
       font-family: 'Jost', sans-serif;
 

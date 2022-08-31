@@ -243,7 +243,7 @@
 
      form {
           max-width: 100%;
-          padding: 25px;
+          padding: 13px;
           background-color: #fff;
           font-family: 'Jost', sans-serif;
 

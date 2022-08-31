@@ -96,7 +96,7 @@
     },
 
    created() {
-      axios.get(`/abouts`)
+      axios.get(`/about`)
         .then(response => {
           this.abouts = response.data.data
           console.log()

@@ -8,16 +8,7 @@
                <h1>Notre Galerie</h1>
                <div class="row" v-if="galeries && galeries.length">
                     <div class="col-lg-3" v-for="galerie of galeries" :key="galerie.id">
-                         <img class="img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
-                    </div>
-                    <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/18Micalex.jpg" alt="">
-                    </div>
-                    <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/14Micalex.jpg" alt="">
-                    </div>
-                    <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/15Micalex.jpg" alt="">
+                         <img class="img-fluid" :src=" `${config.backend_url}${galerie.attributes.image.data.attributes.url}` " alt="">
                     </div>
                </div>
                <!-- <div class="row">
