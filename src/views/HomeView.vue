@@ -186,8 +186,8 @@
                     <input type="text" class="form-control" id="number" v-model="form.telephone" required>
                   </div>
                   <div class="mb-3">
-                    <label for="number" class="form-label">Les Ordonnances*</label>
-                    <input type="file" class="form-control" id="number" accept="image/*" required multiple>
+                    <label for="number" class="form-label">Les Ordonnances</label>
+                    <input type="file" class="form-control" id="number" accept="image/*"  multiple>
                   </div>
                   <div class="mb-3">
                     <label for="number" class="form-label">Les Agences*</label>

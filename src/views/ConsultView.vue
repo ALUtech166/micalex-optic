@@ -44,9 +44,9 @@
                                                   v-model="form.telephone" required>
                                         </div>
                                         <div class="mb-3">
-                                             <label for="number" class="form-label">Les Ordonnances*</label>
+                                             <label for="number" class="form-label">Les Ordonnances</label>
                                              <input type="file" class="form-control" id="number" accept="image/*"
-                                                  required multiple>
+                                                   multiple>
                                         </div>
                                         <div class="mb-3">
                                              <label for="number" class="form-label">Les Agences*</label>
@@ -262,7 +262,7 @@
      }
 
      .header {
-          height: 50vh;
+          height: 40vh;
           background-image:
                url(../assets/Ok-4.png);
           background-size: cover;

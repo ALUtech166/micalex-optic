@@ -257,7 +257,7 @@
   }
 
   .header {
-    height: 50vh;
+    height: 40vh;
     background-image:
       url(../assets/Ok-4.png);
     background-size: cover;
