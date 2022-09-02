@@ -46,7 +46,7 @@
                                         <div class="mb-3">
                                              <label for="number" class="form-label">Les Ordonnances</label>
                                              <input type="file" class="form-control" id="number" accept="image/*"
-                                                   multiple>
+                                                  multiple>
                                         </div>
                                         <div class="mb-3">
                                              <label for="number" class="form-label">Les Agences*</label>

@@ -8,10 +8,11 @@
                <h1>Notre Galerie</h1>
                <div class="row" v-if="galeries && galeries.length">
                     <div class="col-lg-3" v-for="galerie of galeries" :key="galerie.id">
-                         <img class="img-fluid" :src=" `${config.backend_url}${galerie.attributes.image.data.attributes.url}` " alt="">
+                         <img class="img-fluid" :src="`${config.backend_url}${galerie.data.attributes.images.data.attributes.url}`"
+                              alt="">
                     </div>
                </div>
-               <!-- <div class="row">
+               <div class="row">
                     <div class="col-lg-3">
                          <img class="img-fluid" src="../assets/Images/33Micalex.jpg" alt="">
                     </div>
@@ -44,40 +45,39 @@
 
 </template>
 <script>
-  import axios from 'axios'
-  import config from '../../config.js'
+     import axios from 'axios'
+     import config from '../../config.js'
 
-  export default {
-    data() {
-      return {
-        config,
-        galeries: [],
-        errors: []
-        
-      }
-    },
+     export default {
+          data() {
+               return {
+                    config,
+                    galeries: [],
+                    errors: []
 
-   created() {
-      axios.get(`/galerie?populate=*`)
-        .then(response => {
-          this.galeries = response.data.data
-          console.log()
+               }
+          },
 
-        })
-        .catch(e => {
-          this.errors.push(e)
-        })
-    
-  }
+          created() {
+               axios.get(`/galerie?populate=*`)
+                    .then(response => {
+                         this.galeries = response.data
+                         console.log()
 
- }
+                    })
+                    .catch(e => {
+                         this.errors.push(e)
+                    })
+
+          }
+
+     }
 </script>
 
 
 
 
 <style lang="scss" scoped>
-
      .products {
           padding: 20px;
           background-color: #CFD2CF;
@@ -113,7 +113,7 @@
           .row {
                padding: 10px;
 
-               .col-lg-3{
+               .col-lg-3 {
                     padding: 5px;
                }
           }

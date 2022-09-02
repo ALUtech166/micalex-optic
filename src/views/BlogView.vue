@@ -6,60 +6,61 @@
 
      <div class="container">
           <div class="blog">
-            <template v-if="posts && posts.length">
+               <template v-if="posts && posts.length">
                     <div class="row" v-for="post of posts" :key="post.id">
-                    <div class="col-lg-6">
-                         <img class="image img-fluid" src="../assets/Images/12Micalex.jpg" alt="Pray" />
-                    </div>
-                    <div class="col-lg-6">
-                         <div class="description">
-                              <h2>
-                                   {{ post.attributes.Title }}
-                              </h2>
-                              <span><strong>{{ post.attributes.Date }}</strong></span>
-                              <p>
-                                   {{ post.attributes.Content }}
-                              </p>
-                              
-                              <router-link to="#" type="button" class="btn btn-outline-primary">Visit the Site</router-link>
+                         <div class="col-lg-6">
+                              <img class="image img-fluid" src="../assets/Images/12Micalex.jpg" alt="Pray" />
                          </div>
+                         <div class="col-lg-6">
+                              <div class="description">
+                                   <h2>
+                                        {{ post.attributes.Title }}
+                                   </h2>
+                                   <span><strong>{{ post.attributes.Date }}</strong></span>
+                                   <p>
+                                        {{ post.attributes.Content }}
+                                   </p>
+
+                                   <router-link to="#" type="button" class="btn btn-outline-primary">Voir Plus
+                                   </router-link>
+                              </div>
+                         </div>
+
+
                     </div>
-
-
-               </div>
-            </template>
+               </template>
           </div>
      </div>
 </template>
 
 <script>
-  import axios from 'axios'
-  import config from '../../config.js'
+     import axios from 'axios'
+     import config from '../../config.js'
 
-  export default {
-    data() {
-      return {
-        config,
-        posts: [],
-        errors: []
-        
-      }
-    },
+     export default {
+          data() {
+               return {
+                    config,
+                    posts: [],
+                    errors: []
 
-   created() {
-      axios.get(`/posts?populate=*`)
-        .then(response => {
-          this.posts = response.data.data
-          console.log()
+               }
+          },
 
-        })
-        .catch(e => {
-          this.errors.push(e)
-        })
-    
-  }
+          created() {
+               axios.get(`/posts?populate=*`)
+                    .then(response => {
+                         this.posts = response.data.data
+                         console.log()
 
- }
+                    })
+                    .catch(e => {
+                         this.errors.push(e)
+                    })
+
+          }
+
+     }
 </script>
 
 <style lang="scss" scoped>

@@ -187,7 +187,7 @@
                   </div>
                   <div class="mb-3">
                     <label for="number" class="form-label">Les Ordonnances</label>
-                    <input type="file" class="form-control" id="number" accept="image/*"  multiple>
+                    <input type="file" class="form-control" id="number" accept="image/*" multiple>
                   </div>
                   <div class="mb-3">
                     <label for="number" class="form-label">Les Agences*</label>
@@ -249,7 +249,8 @@
         <h1>Nos Produits</h1>
         <div class="row" v-if="produits && produits.length">
           <div class="col-lg-3" v-for="produit of produits" :key="produit.id">
-            <img class="img-fluid" :src=" `${config.backend_url}${produit.attributes.image.data.attributes.url}` " alt="">
+            <img class="img-fluid" :src=" `${config.backend_url}${produit.attributes.image.data.attributes.url}` "
+              alt="">
 
             <h3>{{ produit.attributes.nom }}</h3>
           </div>
@@ -295,18 +296,18 @@
     <section class="marques">
       <h1>Nos Marques</h1>
       <div>
-        <vue3-marquee :clone="true">
-        <!-- <div>
-          <img class="images img-fluid" :src=" `${config.backend_url}${marque.attributes.image.data.attributes.url}`" />
-        </div> -->
-          
-        <img class="images" height="100" src="../assets/Fendi.png" />
-          <img class="images" height="100" src="../assets/Versace.png" />
-          <img class="images" height="100" src="../assets/Outika.png" />
-          <img class="images" height="100" src="../assets/Bvlgari.png" />
-          <img class="images" height="100" src="../assets/Outika.png" />
+          <vue3-marquee :clone="true">
 
-        </vue3-marquee>
+            <!--    <img v-for="marque of marques" :key="marque.id" class="images img-fluid"
+              :src=" `${config.backend_url}${marque.attributes.image.data.attributes.url}`" /> -->
+
+            <img class="images" height="100" src="../assets/Fendi.png" />
+            <img class="images" height="100" src="../assets/Versace.png" />
+            <img class="images" height="100" src="../assets/Outika.png" />
+            <img class="images" height="100" src="../assets/Bvlgari.png" />
+            <img class="images" height="100" src="../assets/Outika.png" />
+
+          </vue3-marquee>
       </div>
     </section>
 
@@ -317,7 +318,8 @@
       <div class="row" style="padding: 10px" v-if="testimoniales && testimoniales.length">
         <div class="col-lg-3" v-for="testimoniale of testimoniales" :key="testimoniale.id">
           <div class="testy">
-            <img class="images img-fluid" :src=" `${config.backend_url}${testimoniale.attributes.avatar.data.attributes.url}` " alt="">
+            <img class="images img-fluid"
+              :src=" `${config.backend_url}${testimoniale.attributes.avatar.data.attributes.url}` " alt="">
             <p>
               <span>{{ testimoniale.attributes.nom }}</span> <br>
               <em>
