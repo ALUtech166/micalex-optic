@@ -38,8 +38,12 @@
                     </div>
 
                </div>
+               <br>
 
                <!--Google Maps-->
+                <div class="pre-header">
+                <h1>Nos Addresses</h1>
+               </div>
 
                <div class="map">
                     <div class="row">
