@@ -28,18 +28,18 @@
                </div>
                <div class="row">
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/33Micalex.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/26Micalex.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/27Micalex.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/33Micalex.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/28Micalex.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/25Micalex.jpg" alt="">
                     </div>
-               </div> -->
+               </div>
           </div>
      </section>
 

@@ -507,7 +507,8 @@
 
 <style lang="scss" scoped>
   .images {
-    margin: 2px;
+    margin: 10px;
+    padding: 3px;
   }
 
   .login {
@@ -653,8 +654,9 @@
 
   .vision {
     padding: 10px;
-    background-image: url("../assets/Images/2Micalex.jpg");
+    background-image: url("../assets/Images/4.jpg");
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
 
 
