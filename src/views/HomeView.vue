@@ -249,7 +249,7 @@
         <h1>Nos Produits</h1>
         <div class="row" v-if="produits && produits.length">
           <div class="col-lg-3" v-for="produit of produits" :key="produit.id">
-            <img class="img-fluid" :src=" `${config.backend_url}${produit.attributes.image.data.attributes.url}` "
+            <img class="pictures img-fluid" :src=" `${config.backend_url}${produit.attributes.image.data.attributes.url}` "
               alt="">
 
             <h3>{{ produit.attributes.nom }}</h3>
@@ -509,6 +509,7 @@
   .images {
     margin: 10px;
     padding: 3px;
+    box-shadow: 0 5px 10px #0005;
   }
 
   .login {
@@ -850,6 +851,11 @@
       text-transform: uppercase;
 
 
+    }
+
+    .pictures {
+      border-radius: 5px;
+      box-shadow: 0 5px 10px #0005;
     }
 
     .row {

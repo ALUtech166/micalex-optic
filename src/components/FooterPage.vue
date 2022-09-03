@@ -46,13 +46,13 @@
                          <h1>Reseaux Sociaux</h1>
                          <ul>
                               <li><i class="fab fa-facebook"></i>
-                                   <router-link class="link" to="/"> Micalex Optique</router-link>
+                                   <router-link class="link" to="https://www.facebook.com/Micalexoptique"> Micalex Optique</router-link>
                               </li>
                               <li><i class="fab fa-instagram"></i>
-                                   <router-link class="link" to="/"> Micalex Optique</router-link>
+                                   <router-link class="link" to="https://www.instagram.com/micalex_optique/"> Micalex Optique</router-link>
                               </li>
                               <li><i class="fab fa-linkedin"></i>
-                                   <router-link class="link" to="/"> Micalex Optique</router-link>
+                                   <router-link class="link" to="https://www.linkedin.com/company/micalex-optique/"> Micalex Optique</router-link>
                               </li>
                          </ul>
                     </div>
@@ -63,9 +63,9 @@
 
           <div class="copyright">
                <div class="text-center">
-                    <a class="social-media" href="#"><i class="fab fa-facebook"></i></a>
-                    <a class="social-media" href="#"><i class="fab fa-instagram"></i></a>
-                    <a class="social-media" href="#"><i class="fab fa-linkedin"></i></a>
+                    <a class="social-media" href="https://www.facebook.com/Micalexoptique"><i class="fab fa-facebook"></i></a>
+                    <a class="social-media" href="https://www.instagram.com/micalex_optique/"><i class="fab fa-instagram"></i></a>
+                    <a class="social-media" href="https://www.linkedin.com/company/micalex-optique/"><i class="fab fa-linkedin"></i></a>
                     <p>&copy; Copyright 2022 Micalex Optique. developé par <a href="http://www.mekengroup.com" target="_blank" rel="noopener noreferrer">MEG</a></p>
                </div>
           </div>
