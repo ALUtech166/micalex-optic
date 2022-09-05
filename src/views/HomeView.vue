@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="carouselExampleDark" class="carousel carousel-white slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -8,7 +8,7 @@
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
+        <div class="carousel-item active" data-bs-interval="1000">
           <img src="../assets/Slide-1.png" class="d-block w-100 img-fluid" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>
@@ -22,7 +22,7 @@
             </p>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
+        <div class="carousel-item" data-bs-interval="1000">
           <img src="../assets/Slide-2.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>
@@ -36,7 +36,7 @@
             </p>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-bs-interval="1000">
           <img src="../assets/Slide-3.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>
@@ -55,168 +55,219 @@
     </div>
 
 
+  <section class="divers">
 
-    <section class="services">
-      <div class="">
-        <h1>Les Services de Micalex Optique</h1>
+          <div class="montures">
 
-        <div class="row">
-          <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Group9.png" alt="">
-            <router-link to="" class="link">
-              <h2> Vente </h2>
-            </router-link>
+            <div class="monture">
+              <h2>Montures</h2>
+
+            </div>
+
+            <br>
+
+            <div class="lentilles">
+              <h2>lentilles</h2>
+
+            </div>
+
           </div>
-          <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Group8.png" alt="">
-            <router-link to="" class="link">
-              <h2> Conseils </h2>
-            </router-link>
+
+          <div class="hommes">
+            <h2>Hommes</h2>
+
+            <h2>Femmes</h2>
+
           </div>
-          <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Group7.png" alt="">
-            <router-link to="" class="link">
-              <h2> Entretient </h2>
-            </router-link>
+      
+          <div>
+            <div class="accessoires">
+              <h2>Accessoires</h2>
+
+            </div>
+            <br>
+
+
+            <div class="enfants">
+              <h2>Enfants</h2>
+
+            </div>
+          
+
+       
+       
+      
+  </div>
+
+
+  </section>
+
+
+
+
+
+  <section class="services">
+    <div class="">
+      <h1>Les Services de Micalex Optique</h1>
+
+      <div class="row">
+        <div class="col-lg-3">
+          <img class="img-fluid" src="../assets/Group9.png" alt="">
+          <router-link to="" class="link">
+            <h2> Vente </h2>
+          </router-link>
+        </div>
+        <div class="col-lg-3">
+          <img class="img-fluid" src="../assets/Group8.png" alt="">
+          <router-link to="" class="link">
+            <h2> Conseils </h2>
+          </router-link>
+        </div>
+        <div class="col-lg-3">
+          <img class="img-fluid" src="../assets/Group7.png" alt="">
+          <router-link to="" class="link">
+            <h2> Entretient </h2>
+          </router-link>
+        </div>
+        <div class="col-lg-3">
+          <img class="img-fluid" src="../assets/Group15.png" alt="">
+          <router-link to="" class="link">
+            <h2> Controle de Vue </h2>
+          </router-link>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="vision">
+    <div class="container">
+      <div class="aside">
+        <div class="heading" style="text-align: center;">
+          <h1>Notre Vision</h1>
+        </div>
+        <p>
+          La vision de Micalex Optique est simple et unique. Nous comptons devenir la solution incontournable de la
+          vue au Togo et dans la sous-région ouest africaine et même à l’international. C’est un réel défi auquel nous
+          nous attachons au quotidien afin de le relever.
+
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="work-hours">
+    <div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="flex">
+            <div>
+              <img src="../assets/1.svg" alt="">
+            </div>
+
+            <div>
+              <h1>Heures D'ouverture</h1>
+              <p class="hours">
+                <span>Lundi - Vendredi: 07h à 19h</span> <br>
+                <span>Samedi: 7h à 16h</span>
+              </p>
+            </div>
+
+
           </div>
-          <div class="col-lg-3">
-            <img class="img-fluid" src="../assets/Group15.png" alt="">
-            <router-link to="" class="link">
-              <h2> Controle de Vue </h2>
-            </router-link>
+
+        </div>
+        <div class="col-lg-6">
+          <div class="flex">
+            <img src="../assets/2.svg" alt="">
+            <h1>Service Immediat</h1>
           </div>
         </div>
       </div>
 
-    </section>
-
-    <section class="vision">
-      <div class="container">
-        <div class="aside">
-          <div class="heading" style="text-align: center;">
-            <h1>Notre Vision</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="flex">
+            <img src="../assets/4.svg" alt="">
+            <h1>Cas de Reparations <br>
+            </h1>
           </div>
-          <p>
-            La vision de Micalex Optique est simple et unique. Nous comptons devenir la solution incontournable de la
-            vue au Togo et dans la sous-région ouest africaine et même à l’international. C’est un réel défi auquel nous
-            nous attachons au quotidien afin de le relever.
-
-          </p>
         </div>
-      </div>
-
-    </section>
-
-    <section class="work-hours">
-      <div>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="flex">
-              <div>
-                <img src="../assets/1.svg" alt="">
-              </div>
-
-              <div>
-                <h1>Heures D'ouverture</h1>
-                <p class="hours">
-                  <span>Lundi - Vendredi: 08h à 20h</span> <br>
-                  <span>Samedi: 10h à 16h</span>
-                </p>
-              </div>
-
-
-            </div>
-
-          </div>
-          <div class="col-lg-6">
-            <div class="flex">
-              <img src="../assets/2.svg" alt="">
-              <h1>Service Immediat</h1>
-            </div>
+        <div class="col-lg-6">
+          <div class="flex">
+            <img src="../assets/3.svg" alt="">
+            <h1>Cas d'Assurance</h1>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="flex">
-              <img src="../assets/4.svg" alt="">
-              <h1>Cas de Reparations <br>
-              </h1>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="flex">
-              <img src="../assets/3.svg" alt="">
-              <h1>Cas d'Assurance</h1>
-            </div>
-          </div>
-
-
-        </div>
 
       </div>
 
-    </section>
+    </div>
 
-    <section class="contact">
+  </section>
+
+  <section class="container contact">
+    <div class="">
       <div class="box" style="padding: 15px">
         <h1 style="text-align: center">Prendre un rendez-vous <br>
           chez nos Experts</h1>
-        <div class="container">
-          <div class="form-signin">
+
+        <div class="form-signin">
 
 
-            <div class="row">
-              <div class="col-lg-6">
-                <form @submit.prevent="getAppointment" method="post">
-                  <div class="mb-3">
-                    <label for="name" class="form-label">Nom*</label>
-                    <input type="text" class="form-control" id="name" v-model="form.nom" required>
-                  </div>
-                  <div class="mb-3">
-                    <label for="name" class="form-label">Prenom*</label>
-                    <input type="text" class="form-control" id="name" v-model="form.prenom" required>
-                  </div>
-                  <div class="mb-3">
-                    <label for="email" class="form-label">Email*</label>
-                    <input type="email" class="form-control" id="email" v-model="form.email" required>
-                  </div>
-                  <div class="mb-3">
-                    <label for="number" class="form-label">Telephone*</label>
-                    <input type="text" class="form-control" id="number" v-model="form.telephone" required>
-                  </div>
-                  <div class="mb-3">
-                    <label for="number" class="form-label">Les Ordonnances</label>
-                    <input type="file" class="form-control" id="number" accept="image/*" multiple>
-                  </div>
-                  <div class="mb-3">
-                    <label for="number" class="form-label">Les Agences*</label>
-                    <select name="select" class="form-control" id="" v-model="form.agence">
-                      <option value="1" disabled>Choisissez l'agence</option>
-                      <option value="Agence de Dekon">Agence de Dekon</option>
-                      <option value="Agence de la Plage">Agence de la Plage</option>
-                    </select>
+          <div class="row">
+            <div class="col-lg-6">
+              <form @submit.prevent="getAppointment" method="post">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nom*</label>
+                  <input type="text" class="form-control" id="name" v-model="form.nom" required>
+                </div>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Prenom*</label>
+                  <input type="text" class="form-control" id="name" v-model="form.prenom" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email*</label>
+                  <input type="email" class="form-control" id="email" v-model="form.email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="number" class="form-label">Telephone*</label>
+                  <input type="text" class="form-control" id="number" v-model="form.telephone" required>
+                </div>
+                <div class="mb-3">
+                  <label for="number" class="form-label">Les Ordonnances</label>
+                  <input type="file" class="form-control" id="number" accept="image/*" multiple>
+                </div>
+                <div class="mb-3">
+                  <label for="number" class="form-label">Les Agences*</label>
+                  <select name="select" class="form-control" id="" v-model="form.agence">
+                    <option value="1" disabled>Choisissez l'agence</option>
+                    <option value="Agence de Dekon">Agence de Dekon</option>
+                    <option value="Agence de la Plage">Agence de la Plage</option>
+                  </select>
 
-                  </div>
-                  <div class="mb-3">
-                    <label for="" class="form-label">Message</label>
-                    <textarea name="message" id="message" class="form-control" placeholder="Le message" rows="5"
-                      required="" v-model="form.message"></textarea>
-                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label">Message</label>
+                  <textarea name="message" id="message" class="form-control" placeholder="Le message" rows="5"
+                    required="" v-model="form.message"></textarea>
+                </div>
 
 
-                  <button type="submit" :disabled="loading" class="btn btn-warnings w-100">
-                    Envoyer
-                  </button>
-                </form>
-              </div>
+                <button type="submit" :disabled="loading" class="btn btn-warnings w-100">
+                  Envoyer
+                </button>
+              </form>
+            </div>
 
-              <div class="col-lg-6">
-                <img class="img-fluid" src="../assets/Images/21Micalex.jpg" alt="">
-              </div>
+            <div class="col-lg-6">
+              <img class="img-fluid" src="../assets/Images/4.jpg" alt="">
             </div>
           </div>
-          <!-- <h1>Prendre un rendez-vous <br>
+        </div>
+        <!-- <h1>Prendre un rendez-vous <br>
               chez nos Experts</h1>
             <div>
               <h6>
@@ -239,22 +290,22 @@
             <img class="img-fluid" src="../assets/vision.jpg" alt="">
           </div>
  -->
-        </div>
       </div>
+    </div>
 
-    </section>
+  </section>
 
-    <section class="products">
-      <div>
-        <h1>Nos Produits</h1>
-        <div class="row" v-if="produits && produits.length">
-          <div class="col-lg-3" v-for="produit of produits" :key="produit.id">
-            <img class="pictures img-fluid" :src=" `${config.backend_url}${produit.attributes.image.data.attributes.url}` "
-              alt="">
+  <section class="products">
+    <div>
+      <h1>Nos Produits</h1>
+      <div class="row" v-if="produits && produits.length">
+        <div class="col-lg-3" v-for="produit of produits" :key="produit.id">
+          <img class="pictures img-fluid"
+            :src=" `${config.backend_url}${produit.attributes.image.data.attributes.url}` " alt="">
 
-            <h3>{{ produit.attributes.nom }}</h3>
-          </div>
-          <!--   <div class="col-lg-3">
+          <h3>{{ produit.attributes.nom }}</h3>
+        </div>
+        <!--   <div class="col-lg-3">
             <img class="img-fluid" src="../assets/Lunettes/AL68265103.jpg" alt="">
 
             <h3>Marc Jacob</h3>
@@ -267,9 +318,9 @@
             <img class="img-fluid" src="../assets/Lunettes/AL68308570.jpg" alt="">
 
             <h3>Bvlgari</h3> -->
-        </div>
       </div>
-      <!-- <div class="row">
+    </div>
+    <!-- <div class="row">
           <div class="col-lg-3">
             <img class="img-fluid" src="../assets/Lunettes/AL68296593.jpg" alt="">
 
@@ -290,46 +341,46 @@
             <h3>Outika</h3>
           </div>
         </div> -->
-      <!-- </div> -->
-    </section>
+    <!-- </div> -->
+  </section>
 
-    <section class="marques">
-      <h1>Nos Marques</h1>
-      <div>
-          <vue3-marquee :clone="true">
+  <section class="marques">
+    <h1>Nos Marques</h1>
+    <div>
+      <vue3-marquee :clone="true">
 
-            <!--    <img v-for="marque of marques" :key="marque.id" class="images img-fluid"
+        <!--    <img v-for="marque of marques" :key="marque.id" class="images img-fluid"
               :src=" `${config.backend_url}${marque.attributes.image.data.attributes.url}`" /> -->
 
-            <img class="images" height="100" src="../assets/Fendi.png" />
-            <img class="images" height="100" src="../assets/Versace.png" />
-            <img class="images" height="100" src="../assets/Outika.png" />
-            <img class="images" height="100" src="../assets/Bvlgari.png" />
-            <img class="images" height="100" src="../assets/Outika.png" />
+        <img class="images" height="100" src="../assets/Fendi.png" />
+        <img class="images" height="100" src="../assets/Versace.png" />
+        <img class="images" height="100" src="../assets/Outika.png" />
+        <img class="images" height="100" src="../assets/Bvlgari.png" />
+        <img class="images" height="100" src="../assets/Outika.png" />
 
-          </vue3-marquee>
-      </div>
-    </section>
+      </vue3-marquee>
+    </div>
+  </section>
 
-    <section class="testimony">
-      <h1>Ils nous font confiance</h1>
+  <section class="testimony">
+    <h1>Ils nous font confiance</h1>
 
-      <br>
-      <div class="row" style="padding: 10px" v-if="testimoniales && testimoniales.length">
-        <div class="col-lg-3" v-for="testimoniale of testimoniales" :key="testimoniale.id">
-          <div class="testy">
-            <img class="images img-fluid"
-              :src=" `${config.backend_url}${testimoniale.attributes.avatar.data.attributes.url}` " alt="">
-            <p>
-              <span>{{ testimoniale.attributes.nom }}</span> <br>
-              <em>
-                {{ testimoniale.attributes.commentaire }}
-              </em>
-            </p>
+    <br>
+    <div class="row" style="padding: 10px" v-if="testimoniales && testimoniales.length">
+      <div class="col-lg-3" v-for="testimoniale of testimoniales" :key="testimoniale.id">
+        <div class="testy">
+          <img class="images img-fluid"
+            :src=" `${config.backend_url}${testimoniale.attributes.avatar.data.attributes.url}` " alt="">
+          <p>
+            <span>{{ testimoniale.attributes.nom }}</span> <br>
+            <em>
+              {{ testimoniale.attributes.commentaire }}
+            </em>
+          </p>
 
-          </div>
         </div>
-        <!--  <div class="col-lg-3">
+      </div>
+      <!--  <div class="col-lg-3">
           <div class="testy">
             <img class="images img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
             <p>
@@ -371,8 +422,8 @@
 
           </div>
         </div> -->
-      </div>
-    </section>
+    </div>
+  </section>
   </div>
 </template>
 
@@ -506,6 +557,116 @@
 </script>
 
 <style lang="scss" scoped>
+  .divers {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    @media (min-width: 550px) {
+      padding: 20px;
+      margin-top: 30px
+    }
+
+     @media (max-width: 550px) {
+       flex-direction: column;
+       width: 100%
+    }
+
+    h2 {
+      font-family: 'Jost', sans-serif;
+      color: #001D6E;
+      font-weight: bold;
+      box-shadow: 0 10px 10px #0005;
+      border: 1px solid #fff;
+      text-align: center;
+      padding: 15px;
+      text-transform: uppercase;
+      font-size: 18px;
+      background-color: #fff;
+      width: 50%;
+      
+    }
+
+    .montures {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .monture {
+      background-image: url("../assets/Images/2.jpg");
+      border-radius: 5px;
+      background-size: cover;
+      height: 40vh;
+      width: 20vw;
+      padding: 5px;
+      text-align: center;
+
+       @media (max-width: 550px) {
+       width: 100%
+    }
+
+    }
+
+    .lentilles {
+      background-image: url("../assets/Images/4.jpg");
+      background-size: cover;
+      border-radius: 5px;
+      height: 40vh;
+      width: 20vw;
+      padding: 5px;
+      text-align: center;
+
+        @media (max-width: 550px) {
+       width: 100%
+    }
+
+    }
+
+    .hommes {
+      background-image: url("../assets/Images/4.jpg");
+      background-size: cover;
+      border-radius: 5px;
+      height: 100vh;
+      width: 50vw;
+      padding: 5px;
+
+        @media (max-width: 550px) {
+       margin: 5px;
+       width: 100%
+    }
+
+    }
+
+    .accessoires {
+      background-image: url("../assets/Images/4.jpg");
+      background-size: cover;
+      border-radius: 5px;
+      height: 40vh;
+      width: 20vw;
+      padding: 5px;
+
+        @media (max-width: 550px) {
+       width: 100%
+    }
+
+    }
+
+    .enfants {
+      background-image: url("../assets/Images/4.jpg");
+      background-size: cover;
+      border-radius: 5px;
+      height: 40vh;
+      width: 20vw;
+      padding: 5px;
+
+        @media (max-width: 550px) {
+       width: 100%
+    }
+
+    }
+  }
+
   .images {
     margin: 10px;
     padding: 3px;
@@ -519,7 +680,7 @@
   .form-signin {
     width: 100%;
     height: 100%;
-    padding: 15px;
+    padding: 10px;
     font-family: 'Jost', sans-serif;
     border-radius: 5px;
     box-shadow: 0 5px 10px #0005;

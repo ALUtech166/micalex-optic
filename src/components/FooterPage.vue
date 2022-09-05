@@ -5,9 +5,8 @@
                     <div class="col-lg-3">
                          <img class="img-fluid" src="../assets/logo.png" alt="">
                          <p>
-                              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                              Aut accusamus labore praesentium
-                              debitis beatae similique quia autem assumenda totam
+                              Micalex Optique est la lunetterie par excellence de la capitale. Elle est une entreprise
+                              spécialisée dans la fourniture de services optiques en général.
                          </p>
                     </div>
 
@@ -32,12 +31,12 @@
                          <h1>Contacts</h1>
                          <ul>
                               <li>contact@micalexoptique.com</li>
-                              <li>+22893658616/+228 99710751/+228 93658894</li>
+                              <li>+228 99710751</li>
                               <li>
                                    Lomé au quartier Dekon, en face de la Banque NSIA
                               </li>
 
-                             <!--  <li>
+                              <!--  <li>
                                    Immeuble Marina Bay à côté de la pharmacie Jeanne d’Arc
                               </li> -->
                          </ul>
@@ -46,13 +45,22 @@
                          <h1>Reseaux Sociaux</h1>
                          <ul>
                               <li><i class="fab fa-facebook"></i>
-                                   <router-link class="link" to="https://www.facebook.com/Micalexoptique"> Micalex Optique</router-link>
+                                   <router-link class="link" to="https://www.facebook.com/Micalexoptique"> Micalex
+                                        Optique</router-link>
                               </li>
                               <li><i class="fab fa-instagram"></i>
-                                   <router-link class="link" to="https://www.instagram.com/micalex_optique/"> Micalex Optique</router-link>
+                                   <router-link class="link" to="https://www.instagram.com/micalex_optique/"> Micalex
+                                        Optique</router-link>
                               </li>
                               <li><i class="fab fa-linkedin"></i>
-                                   <router-link class="link" to="https://www.linkedin.com/company/micalex-optique/"> Micalex Optique</router-link>
+                                   <router-link class="link" to="https://www.linkedin.com/company/micalex-optique/">
+                                        Micalex Optique</router-link>
+                              </li>
+                              <li><i class="fab fa-whatsapp"></i>
+                                   <router-link class="link" to="https://www.linkedin.com/company/micalex-optique/">
+                                        Micalex Optique Whatsapp</router-link>
+                                        <!-- +22893658616/
+                                        /+228 93658894 -->
                               </li>
                          </ul>
                     </div>
@@ -63,10 +71,14 @@
 
           <div class="copyright">
                <div class="text-center">
-                    <a class="social-media" href="https://www.facebook.com/Micalexoptique"><i class="fab fa-facebook"></i></a>
-                    <a class="social-media" href="https://www.instagram.com/micalex_optique/"><i class="fab fa-instagram"></i></a>
-                    <a class="social-media" href="https://www.linkedin.com/company/micalex-optique/"><i class="fab fa-linkedin"></i></a>
-                    <p>&copy; Copyright 2022 Micalex Optique. developé par <a href="http://www.mekengroup.com" target="_blank" rel="noopener noreferrer">MEG</a></p>
+                    <a class="social-media" href="https://www.facebook.com/Micalexoptique"><i
+                              class="fab fa-facebook"></i></a>
+                    <a class="social-media" href="https://www.instagram.com/micalex_optique/"><i
+                              class="fab fa-instagram"></i></a>
+                    <a class="social-media" href="https://www.linkedin.com/company/micalex-optique/"><i
+                              class="fab fa-linkedin"></i></a>
+                    <p>&copy; Copyright 2022 Micalex Optique. developé par <a href="http://www.mekengroup.com"
+                              target="_blank" rel="noopener noreferrer">MEG</a></p>
                </div>
           </div>
      </div>
@@ -79,7 +91,6 @@
 </script>
 
 <style lang="scss" scoped>
-
      .footer {
           padding: 30px;
           background-color: #001D6E;
@@ -122,7 +133,7 @@
                text-transform: uppercase;
                font-size: 20px;
                font-family: 'Jost', sans-serif;
-               
+
 
           }
 
@@ -134,7 +145,7 @@
 
           .copyright {
                padding: 5px;
-               
+
                p {
                     font-family: 'Jost', sans-serif;
                     font-weight: 600;
