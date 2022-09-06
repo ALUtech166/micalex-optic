@@ -11,7 +11,7 @@
         <div class="row">
           <div class="col-md-6 col-12">
             <div class="pray">
-              <img class="img-fluid" src="../assets/Images/16Micalex.jpg" alt="Pray" />
+              <img class="img-fluid" src="../assets/Images/16Micalex.jpg" width="500" alt="Pray" />
             </div>
           </div>
           <div class="col-md-6 col-12">
@@ -62,15 +62,28 @@
     </section>
 
     <section class="space">
-      <div class="description">
-        <p>
+      <div class="container">
 
-          Au rang de nos produits, nous proposons à notre clientèle des montures de toutes marques très résistant
-          « Dior, Marc Jacob, Fendi, Rico Mirado, Tommy Hilfiger, BVLGARI, Versace, Outika, Quartier, Mont Blanc,
-          Silouette, Carrella, Chanel, Swarovski, Chopard, Hugo Boss, Fred, Celine, Louis Vuitton, Roberto Cavanni,
-          Codak, Yves Saint Laurent, etc. »
+        <div class="row">
+        <div class="col-lg-6">
+          <img class="image img-fluid" src="../assets/Images/2.jpg" width="600" alt="Pray" />
+        </div>
+        <div class="col-lg-6">
+          <div class="" style="margin-top: 70px">
+            <p>
 
-        </p>
+              Au rang de nos produits, nous proposons à notre clientèle des montures de toutes marques très résistant
+              « Dior, Marc Jacob, Fendi, Rico Mirado, Tommy Hilfiger, BVLGARI, Versace, Outika, Quartier, Mont Blanc,
+              Silouette, Carrella, Chanel, Swarovski, Chopard, Hugo Boss, Fred, Celine, Louis Vuitton, Roberto Cavanni,
+              Codak, Yves Saint Laurent, etc. »
+
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+
       </div>
 
     </section>
@@ -91,11 +104,11 @@
         config,
         abouts: [],
         errors: []
-        
+
       }
     },
 
-   created() {
+    created() {
       axios.get(`/about`)
         .then(response => {
           this.abouts = response.data.data
@@ -105,10 +118,10 @@
         .catch(e => {
           this.errors.push(e)
         })
-    
-  }
 
- }
+    }
+
+  }
 </script>
 
 
@@ -180,20 +193,35 @@
 
 
   .space {
-    padding: 35px;
-    margin: 20px;
+    padding: 20px;
+    margin: 10px;
+
+
+       .image {
+          border-radius: 5px;
+          box-shadow: 0 5px 10px #0005;
+
+     }
+
+     .col-lg-6 {
+       padding: 5px
+     }
 
 
 
     .description {
-      padding: 25px;
+      padding: 15px;
       border: 1px solid #001D6E;
       border-radius: 5px;
       background-color: #001D6E;
       color: #fff;
+  
+
 
       p {
         padding: 15px;
+        font-size: 20px;
+
       }
 
       h1 {
@@ -241,9 +269,7 @@
     }
   }
 
-  .space {
-    padding: 25px;
-  }
+
 
   a {
     text-decoration: none;

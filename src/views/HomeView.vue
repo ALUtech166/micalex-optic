@@ -564,7 +564,7 @@
       padding: 15px;
       text-transform: uppercase;
       font-size: 18px;
-      background-color: rgba(255, 255, 255, 0.44);
+      background-color: rgba(255, 255, 255, 0.526);
       width: 50%;
       
     }
