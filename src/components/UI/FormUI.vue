@@ -4,48 +4,35 @@
           <div class="form">
 
                <form class="mb-5" @submit.prevent="sendMessage">
-                    <div class="row">
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Nom*</label>
-                              <input type="text" class="form-control" name="nom" id="name" placeholder="Votre Nom"
-                                   required v-model="form.nom">
-                         </div>
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Prenom*</label>
-                              <input type="text" class="form-control" name="nom" id="name" placeholder="Votre Nom"
-                                   required v-model="form.prenoms">
-                         </div>
-
+                    <div class="mb-3">
+                         <label for="name" class="form-label">Nom*</label>
+                         <input type="text" class="form-control" id="name" v-model="form.nom" required>
+                    </div>
+                    <div class="mb-3">
+                         <label for="name" class="form-label">Prenom*</label>
+                         <input type="text" class="form-control" id="name" v-model="form.prenoms" required>
+                    </div>
+                    <div class="mb-3">
+                         <label for="email" class="form-label">Email*</label>
+                         <input type="email" class="form-control" id="email" v-model="form.email" required>
+                    </div>
+                    <div class="mb-3">
+                         <label for="number" class="form-label">Telephone*</label>
+                         <input type="text" class="form-control" id="number" v-model="form.telephone" required>
                     </div>
 
-                    <div class="row">
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Addresse mail*</label>
-                              <input type="email" class="form-control" name="email" id="email"
-                                   placeholder="Addresse mail" required v-model="form.email">
-                         </div>
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Numéro de Téléphone*</label>
-                              <input type="text" class="form-control" name="password" id="phone"
-                                   placeholder="Numéro de Téléphone" required v-model="form.telephone">
-                         </div>
-
-                    </div>
-                    <div class="col-md-6 form-group mb-5">
-                         <label for="" class="col-form-label">Objet</label>
+                    <div class="mb-3">
+                         <label for="objet" class="form-label">Objet</label>
                          <input type="text" class="form-control" name="remember_token" placeholder="Objet" required
                               v-model="form.objet">
                     </div>
-                    <div class="row">
-
-                         <div class="col-md-6 form-group mb-5">
-                              <label for="" class="col-form-label">Message</label>
-                              <textarea name="message" id="message" class="form-control" placeholder="Le message"
-                                   rows="5" required="" v-model="form.message"></textarea>
-                         </div>
-
+                
+                    <div class="mb-3">
+                         <label for="" class="form-label">Message</label>
+                         <textarea name="message" id="message" class="form-control" placeholder="Le message" rows="5"
+                              required="" v-model="form.message"></textarea>
                     </div>
-
+                 
                     <div class="row">
                          <div class="col-md-12 form-group">
                               <input type="submit" value="Envoyer Message" class="btn btn-success btn-animated">

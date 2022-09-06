@@ -6,17 +6,28 @@
 
           <div class="container">
                <section class="vente">
-                    <div class="description">
-                         <h1>Vente</h1>
-                         <hr>
-                         <p> Chez nous à Micalex Optique, votre vision est notre priorité et nous mettons tout en œuvre
-                              pour répondre à tous vos besoins car la vue,c’est la vie . Nous proposons des produits et
-                              services sur mesure et selon vos besoins exprimés. Les collections que nous vous offrons
-                              sont toutes sélectionnées avec le plus grand soin.
-                              Comme toutes autres lunetteries Micalex Optique offre:
+                    <div class="row">
+                         <div class="col-lg-6">
+                              <img class="image img-fluid" src="../assets/Images/2.jpg" width="600" alt="Pray" />
+                         </div>
+                         <div class="col-lg-6">
+                              <div class="description">
+                                   <h1>Vente</h1>
+                                   <hr>
+                                   <p> Chez nous à Micalex Optique, votre vision est notre priorité et nous mettons tout
+                                        en œuvre
+                                        pour répondre à tous vos besoins car la vue,c’est la vie . Nous proposons des
+                                        produits et
+                                        services sur mesure et selon vos besoins exprimés. Les collections que nous vous
+                                        offrons
+                                        sont toutes sélectionnées avec le plus grand soin.
+                                        Comme toutes autres lunetteries Micalex Optique offre:
 
-                         </p>
+                                   </p>
+                              </div>
+                         </div>
                     </div>
+
                </section>
 
           </div>
@@ -63,7 +74,8 @@
                          procurant ainsi au porteur une vision plus confortable et plus précise. <br>
 
                          <br>
-                         <span>ANTI LUMIERE BLEUE:</span> C’est le traitement qui améliore la transparence des verres et vous protège
+                         <span>ANTI LUMIERE BLEUE:</span> C’est le traitement qui améliore la transparence des verres et
+                         vous protège
                          contre les UV A, B et la lumière bleue nocive à l’oeil. Ce sont aussi des traitements qui
                          convienent à l’ensemble des personnes qui passe du temps devant les écrans (ordinateur,
                          tablette, smartphone et autres) ce traitement filtre quantitativement la lumière bleue et
@@ -81,13 +93,15 @@
                          optimal à chaque instant. <br>
                          <br>
 
-                         <span>DES TRANSITIONS</span> qui permettent à vos verres de s’assombrir plus rapidement et plus foncé à
+                         <span>DES TRANSITIONS</span> qui permettent à vos verres de s’assombrir plus rapidement et plus
+                         foncé à
                          l’extérieur en fonction de l’intensité lumineuse et de plus claire à l’intérieur.
                          Anti rayures: C’est un traitement qui permet de rendre les verres plus résistants et aux
                          frottements et aux rayures. <br>
 
                          <br>
-                         <span>ANTI SALISSURES:</span> C’est un traitement qui permet de rendre la suface des lunettes extremement
+                         <span>ANTI SALISSURES:</span> C’est un traitement qui permet de rendre la suface des lunettes
+                         extremement
                          lisses pour empêcher les saletés d’y adhérer. <br>
                          <br>
                          <span>ANTI HYDROPHOBE:</span> C’est un traitement anti-buais.
@@ -230,13 +244,13 @@
                     padding: 5px;
 
                     span {
-      text-align: center;
-      text-transform: uppercase;
-      font-size: 20px;
-      font-family: 'Jost', sans-serif;
-      color: #001D6E;
-      font-weight: bold;
-    }
+                         text-align: center;
+                         text-transform: uppercase;
+                         font-size: 20px;
+                         font-family: 'Jost', sans-serif;
+                         color: #001D6E;
+                         font-weight: bold;
+                    }
                }
           }
      }

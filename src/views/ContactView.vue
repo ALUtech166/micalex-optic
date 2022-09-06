@@ -4,9 +4,76 @@
           <h1 class="titre">Contacts</h1>
      </div>
 
+
+     <!--Google Maps-->
+     <div class="pre-header">
+          <h1>Nos Addresses</h1>
+     </div>
+
+
+     <div class="map">
+          <div class="row">
+               <div class="col-lg-6">
+                    <!-- <h1>Dekon en face de NSIA BANK sur les pavés avant le feu rouge</h1> -->
+                    <!-- <img class="image img-fluid" src="../assets/Images/12Micalex.jpg" alt="Pray" /> -->
+                    <div class="infos">
+                         <p>
+                              <i class="fa fa-home" aria-hidden="true"></i> <em>Address</em> <span>Dekon en face de NSIA
+                                   BANK sur les pavés avant le feu rouge</span>
+                         </p>
+                         <p>
+                              <i class="fa fa-phone" aria-hidden="true"></i> <em>Numero</em> <span>+228 99710751</span>
+                         </p>
+                         <p>
+                              <i class="fa fa-envelope" aria-hidden="true"></i> <em>Email</em>
+                              <span>dekon@micalexoptique.com</span>
+                         </p>
+                    </div>
+
+
+                    <div class="mapouter">
+                         <div class="gmap_canvas"><iframe id="gmap_canvas" width="100%" height="475"
+                                   src="https://maps.google.com/maps?q=Rue%20275,%20Lom%C3%A9%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                   frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+                         </div>
+
+                    </div>
+               </div>
+               <div class="col-lg-6">
+                    <!-- <h1>Immeuble Marina Bay à côté de la pharmacie Jeanne d’Arc</h1> -->
+                    <div class="infos">
+                         <p>
+                              <i class="fa fa-home" aria-hidden="true"></i> <em>Address</em> <span>Immeuble
+                                   Marina Bay à côté de la pharmacie Jeanne d’Arc</span>
+                         </p>
+                         <p>
+                              <i class="fa fa-phone" aria-hidden="true"></i> <em>Numero</em> <span>+228 99710751</span>
+                         </p>
+                         <p>
+                              <i class="fa fa-envelope" aria-hidden="true"></i> <em>Email</em>
+                              <span>plage@micalexoptique.com</span>
+                         </p>
+                    </div>
+
+
+                    <div class="mapouter">
+                         <div class="gmap_canvas"><iframe id="gmap_canvas" width="100%" height="475"
+                                   src="https://maps.google.com/maps?q=Rue%20275,%20Lom%C3%A9%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                   frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+                         </div>
+
+                    </div>
+               </div>
+          </div>
+     </div>
+
+
+
+
      <div class="pre-header">
           <h1>Contactez Nous</h1>
-          <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
      </div>
 
      <div class="about">
@@ -14,65 +81,18 @@
           <div class="">
                <div class="form">
 
-
                     <div class="row">
                          <div class="col-lg-6">
                               <FormUI></FormUI>
-
                          </div>
+
                          <div class="col-lg-6">
-                              <div class="sub-title">
-                                   <div class="social-media">
-                                        <ul>
-                                             <li><i class="fab fa-facebook"></i> Micalex Optique</li>
-                                             <li><i class="fab fa-instagram"></i> Micalex Optique</li>
-                                             <li><i class="fab fa-linkedin"></i> Micalex Optique</li>
-                                        </ul>
-                                   </div>
-                              </div>
-
-
-
+                              <img class="img-fluid" src="../assets/Images/21Micalex.jpg" alt="">
                          </div>
-
                     </div>
 
                </div>
                <br>
-
-               <!--Google Maps-->
-                <div class="pre-header">
-                <h1>Nos Addresses</h1>
-               </div>
-
-               <div class="map">
-                    <div class="row">
-                         <div class="col-lg-6">
-                              <h1>Dekon en face de NSIA BANK sur les pavés avant le feu rouge</h1>
-                              <div class="mapouter">
-                                   <div class="gmap_canvas"><iframe id="gmap_canvas" width="100%" height="400"
-                                             src="https://maps.google.com/maps?q=Rue%20275,%20Lom%C3%A9%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-
-                                   </div>
-
-                              </div>
-                         </div>
-                         <div class="col-lg-6">
-                              <h1>Immeuble Marina Bay à côté de la pharmacie Jeanne d’Arc</h1>
-                              <div class="mapouter">
-                                   <div class="gmap_canvas"><iframe id="gmap_canvas" width="100%" height="400"
-                                             src="https://maps.google.com/maps?q=Rue%20275,%20Lom%C3%A9%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-
-                                   </div>
-
-                              </div>
-                         </div>
-                    </div>
-               </div>
-
-
 
           </div>
 
@@ -96,6 +116,30 @@
 
 
 <style lang="scss" scoped>
+     .fa,
+     em {
+          color: #001D6E;
+          font-weight: bold;
+          padding: 5px;
+          
+     }
+
+     span {
+          padding: 15px;
+          font-family: 'Jost', sans-serif;
+          font-weight: bold;
+          font-size: 17px;
+     }
+
+     img {
+          height: 100%;
+     }
+
+     .infos {
+          text-align: center;
+          padding: 10px;
+     }
+
      .pre-header {
           text-align: center;
           padding: 10px;
@@ -174,7 +218,7 @@
 
      p {
           text-align: justify;
-          font-family: 'Jost';
+          font-family: 'Jost', sans-serif;
           font-size: 20px;
      }
 
@@ -265,7 +309,7 @@
 
 
      .image {
-          border-radius: 10px;
+          border-radius: 3px;
 
      }
 </style>
