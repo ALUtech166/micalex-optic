@@ -619,7 +619,7 @@
     }
 
     .hommes {
-      background-image: url("../assets/Images/4.jpg");
+      background-image: url("../assets/Images/20Micalex.jpg");
       background-size: cover;
       border-radius: 5px;
       height: 100vh;
@@ -634,7 +634,7 @@
     }
 
     .accessoires {
-      background-image: url("../assets/Images/4.jpg");
+      background-image: url("../assets/Images/produit.jpeg");
       background-size: cover;
       border-radius: 5px;
       height: 40vh;
