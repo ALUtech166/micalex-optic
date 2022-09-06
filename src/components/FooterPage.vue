@@ -45,20 +45,20 @@
                          <h1>Reseaux Sociaux</h1>
                          <ul>
                               <li><i class="fab fa-facebook"></i>
-                                   <router-link class="link" to="https://www.facebook.com/Micalexoptique"> Micalex
+                                   <router-link class="link" to="https://www.facebook.com/Micalexoptique" target="blank"> Micalex
                                         Optique</router-link>
                               </li>
                               <li><i class="fab fa-instagram"></i>
-                                   <router-link class="link" to="https://www.instagram.com/micalex_optique/"> Micalex
+                                   <router-link class="link" to="https://www.instagram.com/micalex_optique/" target="blank"> Micalex
                                         Optique</router-link>
                               </li>
                               <li><i class="fab fa-linkedin"></i>
-                                   <router-link class="link" to="https://www.linkedin.com/company/micalex-optique/">
+                                   <router-link class="link" to="https://www.linkedin.com/company/micalex-optique/" target="blank">
                                         Micalex Optique</router-link>
                               </li>
                               <li><i class="fab fa-whatsapp"></i>
-                                   <router-link class="link" to="https://www.linkedin.com/company/micalex-optique/">
-                                        Micalex Optique Whatsapp</router-link>
+                                   <a class="link" href="https://wa.me/93658616" target="blank">
+                                        Micalex Optique Whatsapp</a>
                                         <!-- +22893658616/
                                         /+228 93658894 -->
                               </li>
@@ -67,21 +67,24 @@
                </div>
           </div>
 
-          <hr>
+           <hr>
 
+     </div>
+
+    
           <div class="copyright">
                <div class="text-center">
-                    <a class="social-media" href="https://www.facebook.com/Micalexoptique"><i
+                    <a class="social-media" href="https://www.facebook.com/Micalexoptique" target="blank"><i
                               class="fab fa-facebook"></i></a>
-                    <a class="social-media" href="https://www.instagram.com/micalex_optique/"><i
+                    <a class="social-media" href="https://www.instagram.com/micalex_optique/" target="blank"><i
                               class="fab fa-instagram"></i></a>
-                    <a class="social-media" href="https://www.linkedin.com/company/micalex-optique/"><i
+                    <a class="social-media" href="https://www.linkedin.com/company/micalex-optique/" target="blank"><i
                               class="fab fa-linkedin"></i></a>
+                    <a class="social-media" href="https://wa.me/93658616" target="blank"> <i class="fab fa-whatsapp"></i></a>
                     <p>&copy; Copyright 2022 Micalex Optique. developé par <a href="http://www.mekengroup.com"
                               target="_blank" rel="noopener noreferrer">MEG</a></p>
                </div>
           </div>
-     </div>
 </template>
 
 <script>
@@ -93,8 +96,8 @@
 <style lang="scss" scoped>
      .footer {
           padding: 30px;
-          background-color: #001D6E;
-
+          background-color: #001d6ec9;
+          
           p,
           h1,
           li {
@@ -143,13 +146,18 @@
                background-color: #fff;
           }
 
-          .copyright {
+         
+     }
+
+      .copyright {
                padding: 5px;
+               background-color: #001D6E;
 
                p {
                     font-family: 'Jost', sans-serif;
                     font-weight: 600;
                     text-align: center;
+                    color: #fff;
                }
 
                a {
@@ -164,5 +172,4 @@
                     padding: 2px;
                }
           }
-     }
 </style>

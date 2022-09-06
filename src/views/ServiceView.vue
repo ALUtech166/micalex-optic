@@ -1,6 +1,6 @@
 <template>
      <div class="header">
-          <h1 class="titre">Nos Services</h1>
+          <h1 class="titre">Nos Services & Produits</h1>
      </div>
      <div class="service">
 
@@ -60,8 +60,10 @@
                          traitements comme:
 
                          anti reflets: qui, appliqué sur les verres améliore leur apparence en supprimant les reflets et
-                         procurant ainsi au porteur une vision plus confortable et plus précise.
-                         ANTI LUMIERE BLEUE: C’est le traitement qui améliore la transparence des verres et vous protège
+                         procurant ainsi au porteur une vision plus confortable et plus précise. <br>
+
+                         <br>
+                         <span>ANTI LUMIERE BLEUE:</span> C’est le traitement qui améliore la transparence des verres et vous protège
                          contre les UV A, B et la lumière bleue nocive à l’oeil. Ce sont aussi des traitements qui
                          convienent à l’ensemble des personnes qui passe du temps devant les écrans (ordinateur,
                          tablette, smartphone et autres) ce traitement filtre quantitativement la lumière bleue et
@@ -76,14 +78,19 @@
                     <p>
                          Les verres photochromiques qui sont des verres à teinte variable et qui à l’intensité de la
                          lumière du soleil, s’assombrit de façon rapide (en 30 secondes) offrant ainsi un confort
-                         optimal à chaque instant.
-                         DES TRANSITIONS qui permettent à vos verres de s’assombrir plus rapidement et plus foncé à
+                         optimal à chaque instant. <br>
+                         <br>
+
+                         <span>DES TRANSITIONS</span> qui permettent à vos verres de s’assombrir plus rapidement et plus foncé à
                          l’extérieur en fonction de l’intensité lumineuse et de plus claire à l’intérieur.
                          Anti rayures: C’est un traitement qui permet de rendre les verres plus résistants et aux
-                         frottements et aux rayures.
-                         ANTI SALISSURES: C’est un traitement qui permet de rendre la suface des lunettes extremement
-                         lisses pour empêcher les saletés d’y adhérer.
-                         ANTI HYDROPHOBE: C’est un traitement anti-buais.
+                         frottements et aux rayures. <br>
+
+                         <br>
+                         <span>ANTI SALISSURES:</span> C’est un traitement qui permet de rendre la suface des lunettes extremement
+                         lisses pour empêcher les saletés d’y adhérer. <br>
+                         <br>
+                         <span>ANTI HYDROPHOBE:</span> C’est un traitement anti-buais.
 
                     </p>
                </div>
@@ -221,6 +228,15 @@
                     font-family: 'Jost'sans-serif;
                     font-size: 20px;
                     padding: 5px;
+
+                    span {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 20px;
+      font-family: 'Jost', sans-serif;
+      color: #001D6E;
+      font-weight: bold;
+    }
                }
           }
      }
@@ -250,15 +266,15 @@
 
      .titre {
           top: 50%;
-          right: 60%;
+          right: 50%;
           position: absolute;
           color: #fff;
           font-weight: bold;
-          font-size: 45px;
+          font-size: 40px;
           text-transform: uppercase;
 
           @media (max-width: 550px) {
-               font-size: 30px;
+               font-size: 25px;
                padding: 10px;
           }
 

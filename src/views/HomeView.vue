@@ -159,51 +159,32 @@
 
   <section class="work-hours">
     <div>
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="flex">
-            <div>
-              <img src="../assets/1.svg" alt="">
-            </div>
 
-            <div>
+      <div class="row">
+        <div class="col-lg-3">
+           <img src="../assets/1.svg" alt="">
+           <div>
               <h1>Heures D'ouverture</h1>
-              <p class="hours">
-                <span>Lundi - Vendredi: 07h à 19h</span> <br>
-                <span>Samedi: 7h à 16h</span>
-              </p>
+              <span>Lundi - Vendredi: 07h à 19h</span> <br>
+              <span>Samedi: 7h à 16h</span>
             </div>
-
-
-          </div>
-
         </div>
-        <div class="col-lg-6">
-          <div class="flex">
-            <img src="../assets/2.svg" alt="">
-            <h1>Service Immediat</h1>
-          </div>
+        <div class="col-lg-3">
+          <img src="../assets/2.svg" alt="">
+          <h1>Service Immediat</h1>
+          
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="flex">
-            <img src="../assets/4.svg" alt="">
-            <h1>Cas de Reparations <br>
+        <div class="col-lg-3">
+          <img src="../assets/4.svg" alt="">
+            <h1>Cas de Reparations
             </h1>
-          </div>
         </div>
-        <div class="col-lg-6">
-          <div class="flex">
+        <div class="col-lg-3">
             <img src="../assets/3.svg" alt="">
             <h1>Cas d'Assurance</h1>
-          </div>
         </div>
-
-
       </div>
-
+  
     </div>
 
   </section>
@@ -583,7 +564,7 @@
       padding: 15px;
       text-transform: uppercase;
       font-size: 18px;
-      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0.44);
       width: 50%;
       
     }
@@ -854,7 +835,7 @@
 
       h1 {
         text-align: center;
-        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0.526);
         border: 2px solid#001D6E;
         border-radius: 5px;
         width: 50%;
@@ -866,7 +847,7 @@
 
       p {
         padding: 18px;
-        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0.526);
         border: 2px solid#001D6E;
         font-family: 'Jost', sans-serif;
         font-size: 17px;
@@ -878,6 +859,8 @@
 
       }
     }
+
+  
   }
 
 
@@ -900,20 +883,13 @@
 
     span {
       color: #001D6E;
+      margin: 10px;
+      text-align: justify;
 
     }
 
 
-    .hours {
-      margin-left: 15px;
-      font-family: 'Jost', sans-serif;
-    }
-
-    .flex {
-      display: flex;
-      justify-content: center;
-    }
-
+    
     .row {
       padding: 5px;
     }

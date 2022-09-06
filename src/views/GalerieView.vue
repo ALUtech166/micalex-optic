@@ -152,12 +152,12 @@
           position: absolute;
           color: #fff;
           font-weight: bold;
-          font-size: 45px;
+          font-size: 40px;
           text-transform: uppercase;
 
 
           @media (max-width: 550px) {
-               font-size: 30px;
+               font-size: 25px;
                padding: 10px;
           }
 

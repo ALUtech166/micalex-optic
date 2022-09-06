@@ -12,7 +12,7 @@
           <router-link class="link" :to="{ name: 'About' }">A Propos</router-link>
         </li>
         <li>
-          <router-link class="link" :to="{ name: 'Service' }">Services</router-link>
+          <router-link class="link" :to="{ name: 'Service' }">Services & Produits</router-link>
         </li>
         <li>
           <router-link class="link" :to="{ name: 'Galerie' }">Galerie</router-link>
@@ -43,7 +43,7 @@
             <router-link class="link" :to="{ name: 'About' }">A Propos</router-link>
           </li>
           <li>
-            <router-link class="link" :to="{ name: 'Service' }">Services</router-link>
+            <router-link class="link" :to="{ name: 'Service' }">Services & Produits</router-link>
           </li>
           <li>
             <router-link class="link" :to="{ name: 'Galerie' }">Galerie</router-link>
