@@ -1,13 +1,13 @@
 <template>
 
      <div class="header">
-          <h1 class="titre">Contacts</h1>
+          <h1 class="titre">CONTACTEZ NOUS</h1>
      </div>
 
 
      <!--Google Maps-->
      <div class="pre-header">
-          <h1>Nos Addresses</h1>
+          <h1>Nos Adresses</h1>
      </div>
 
 
@@ -18,7 +18,7 @@
                     <!-- <img class="image img-fluid" src="../assets/Images/12Micalex.jpg" alt="Pray" /> -->
                     <div class="infos">
                          <p>
-                              <i class="fa fa-home" aria-hidden="true"></i> <em>Address</em> <span>Dekon en face de NSIA
+                              <i class="fa fa-home" aria-hidden="true"></i> <em>Adresse</em> <span>Dekon en face de NSIA
                                    BANK sur les pavés avant le feu rouge</span>
                          </p>
                          <p>
@@ -44,7 +44,7 @@
                     <!-- <h1>Immeuble Marina Bay à côté de la pharmacie Jeanne d’Arc</h1> -->
                     <div class="infos">
                          <p>
-                              <i class="fa fa-home" aria-hidden="true"></i> <em>Address</em> <span>Immeuble
+                              <i class="fa fa-home" aria-hidden="true"></i> <em>Adresse</em> <span>Immeuble
                                    Marina Bay à côté de la pharmacie Jeanne d’Arc</span>
                          </p>
                          <p>
@@ -129,6 +129,7 @@
           font-family: 'Jost', sans-serif;
           font-weight: bold;
           font-size: 17px;
+          text-align: justify;
      }
 
      img {

@@ -166,7 +166,7 @@
            <div>
               <h1>Heures D'ouverture</h1>
               <span>Lundi - Vendredi: 07h à 19h</span> <br>
-              <span>Samedi: 7h à 16h</span>
+              <span>Samedi: 7h30 à 16h</span>
             </div>
         </div>
         <div class="col-lg-3">
@@ -333,11 +333,19 @@
         <!--    <img v-for="marque of marques" :key="marque.id" class="images img-fluid"
               :src=" `${config.backend_url}${marque.attributes.image.data.attributes.url}`" /> -->
 
-        <img class="images" height="100" src="../assets/Fendi.png" />
-        <img class="images" height="100" src="../assets/Versace.png" />
-        <img class="images" height="100" src="../assets/Outika.png" />
-        <img class="images" height="100" src="../assets/Bvlgari.png" />
-        <img class="images" height="100" src="../assets/Outika.png" />
+        <img class="images" height="100" src="../assets/fendi.svg" />
+        <img class="images" height="100"  src="../assets/Dior-logo-new.svg" />
+        <img class="images" height="100" src="../assets/mont-blanc-1.svg" />
+        <img class="images" height="100" src="../assets/versace-3.svg" />
+        <img class="images" height="100" src="../assets/bvlgari.svg" />
+        <img class="images" height="100" src="../assets/silhouette.svg" />
+        <img class="images" height="100" src="../assets/tommy-hilfiger.svg" />
+        <img class="images" height="100" src="../assets/cartier-3.svg" />
+        <img class="images" height="100" src="../assets/chanel-2.svg" />
+        <img class="images" height="100" src="../assets/louis-vuitton-1.svg" />
+        <img class="images" height="100" src="../assets/hugo.svg" />
+        <img class="images" height="100" src="../assets/chopard-1.svg" />
+        
 
       </vue3-marquee>
     </div>
@@ -538,6 +546,12 @@
 </script>
 
 <style lang="scss" scoped>
+  .images {
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+  }
+
   .divers {
     padding: 10px;
     display: flex;
@@ -648,12 +662,7 @@
     }
   }
 
-  .images {
-    margin: 10px;
-    padding: 3px;
-    box-shadow: 0 5px 10px #0005;
-  }
-
+  
   .login {
     padding: 15px;
   }
@@ -891,11 +900,11 @@
 
     
     .row {
-      padding: 5px;
+      padding: 10px;
     }
 
-    .col-lg-6 {
-      padding: 10px;
+    .col-lg-3 {
+      padding: 15px;
     }
   }
 
@@ -993,6 +1002,7 @@
     .pictures {
       border-radius: 5px;
       box-shadow: 0 5px 10px #0005;
+      height: 100%
     }
 
     .row {

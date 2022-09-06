@@ -125,11 +125,75 @@
                     </p>
 
                </div>
+
+
+
+
           </section>
 
      </div>
 
      <CarouselImage1></CarouselImage1>
+
+     <div class="container">
+          <div class="nos-produits">
+               <h1>Nos Divers Produits</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam est distinctio officiis
+                    cupiditate dolorem praesentium adipisci. Quod facere quos sed quisquam a iusto rerum id neque
+                    temporibus architecto? Dolorem: </p>
+
+
+               <div class="row">
+
+                    <div class="col-lg-6">
+                         <img class="img-fluid" src="" alt="">
+                         <h2>Montures</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam est distinctio officiis
+                              cupiditate dolorem praesentium adipisci.
+                         </p>
+
+                    </div>
+
+                    <div class="col-lg-6">
+                         <img class="img-fluid" src="" alt="">
+                         <h2>Lentilles</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam est distinctio officiis
+                              cupiditate dolorem praesentium adipisci.
+                         </p>
+
+                    </div>
+
+
+               </div>
+
+               <div class="row">
+                    <div class="col-lg-6">
+                         <img class="img-fluid" src="" alt="">
+                         <h2>Verres</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam est distinctio officiis
+                              cupiditate dolorem praesentium adipisci.
+                         </p>
+
+                    </div>
+
+                    <div class="col-lg-6">
+                         <img class="img-fluid" src="" width="500" alt="">
+                         <h2>Produits d'entretient</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam est distinctio officiis
+                              cupiditate dolorem praesentium adipisci.
+                         </p>
+
+                    </div>
+               </div>
+
+
+
+
+
+
+
+          </div>
+     </div>
 
 
 
@@ -253,6 +317,42 @@
                     }
                }
           }
+     }
+
+     .nos-produits {
+          padding: 10px;
+          margin-top: 45px;
+
+
+          h1 {
+               color: #001D6E;
+               font-weight: bold;
+               font-size: 35px;
+               text-transform: uppercase;
+               padding: 5px;
+               font-family: 'Jost', sans-serif;
+               text-align: center;
+          }
+
+          h2 {
+               color: #001D6E;
+               font-weight: bold;
+               font-size: 25px;
+               text-transform: uppercase;
+               padding: 5px;
+               font-family: 'Jost', sans-serif;
+          
+          }
+
+          .row {
+               padding: 7px;
+          }
+
+          p {
+               font-family: 'Jost', sans-serif; 
+               font-size: 17px;
+          }
+
      }
 
      a {

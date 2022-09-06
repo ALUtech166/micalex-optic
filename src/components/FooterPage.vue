@@ -1,16 +1,8 @@
 <template>
      <div class="footer">
           <div class="container">
-               <div class="row">
-                    <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/logo.png" alt="">
-                         <p>
-                              Micalex Optique est la lunetterie par excellence de la capitale. Elle est une entreprise
-                              spécialisée dans la fourniture de services optiques en général.
-                         </p>
-                    </div>
-
-                    <div class="col-lg-3">
+               <div class="container row">
+                    <div class="col-lg-4">
                          <h1>Liens Utiles</h1>
                          <ul>
                               <li>
@@ -27,21 +19,47 @@
                               </li>
                          </ul>
                     </div>
-                    <div class="col-lg-3">
-                         <h1>Contacts</h1>
+                    <div class="col-lg-4">
+                         <h1>Dekon</h1>
                          <ul>
-                              <li>contact@micalexoptique.com</li>
-                              <li>+228 99710751</li>
                               <li>
-                                   Lomé au quartier Dekon, en face de la Banque NSIA
+                                   <i class="fa fa-home" aria-hidden="true"></i>
+                                   Lomé au quartier Dekon, <br>
+                                   en face de la Banque NSIA
                               </li>
+                              <li><i class="fa fa-phone" aria-hidden="true"></i> Contact: +228 99710751</li>
+                              <li><i class="fa fa-phone" aria-hidden="true"></i> Bureau: +228 99710751</li>
+                              <li><i class="fa fa-envelope" aria-hidden="true"></i> contact@micalexoptique.com</li>
+
+
+
 
                               <!--  <li>
                                    Immeuble Marina Bay à côté de la pharmacie Jeanne d’Arc
                               </li> -->
                          </ul>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
+                         <h1>Plage</h1>
+                         <ul>
+                              <li>
+                                   <i class="fa fa-home" aria-hidden="true"></i>
+                                   Immeuble Marina Bay à côté <br>
+                                   de la pharmacie Jeanne d’Arc
+                              </li>
+                              <li><i class="fa fa-phone" aria-hidden="true"></i> Contact: +228 99710751</li>
+                              <li><i class="fa fa-phone" aria-hidden="true"></i> Bureau: +228 99710751</li>
+                              <li><i class="fa fa-envelope" aria-hidden="true"></i> contact@micalexoptique.com</li>
+
+
+
+
+                              <!--  <li>
+                                   Immeuble Marina Bay à côté de la pharmacie Jeanne d’Arc
+                              </li> -->
+                         </ul>
+                    </div>
+                    <!-- <div class="col-lg-4">
                          <h1>Reseaux Sociaux</h1>
                          <ul>
                               <li><i class="fab fa-facebook"></i>
@@ -58,33 +76,41 @@
                               </li>
                               <li><i class="fab fa-whatsapp"></i>
                                    <a class="link" href="https://wa.me/93658616" target="blank">
-                                        Micalex Optique Whatsapp</a>
-                                        <!-- +22893658616/
+                                        Micalex Optique</a>
+                                       +22893658616/
                                         /+228 93658894 -->
-                              </li>
+                    <!--         </li>
                          </ul>
-                    </div>
+                    </div> -->
                </div>
           </div>
 
-           <hr>
+
+          <div class="copyright">
+               <div class="flex">
+                    <img class="img-fluid" src="../assets/Arrow.svg" alt="">
+                    <div class="text-center">
+
+                         <a class="social-media" href="https://www.facebook.com/Micalexoptique" target="blank"><i
+                                   class="fab fa-facebook"></i></a>
+                         <a class="social-media" href="https://www.instagram.com/micalex_optique/" target="blank"><i
+                                   class="fab fa-instagram"></i></a>
+                         <a class="social-media" href="https://www.linkedin.com/company/micalex-optique/"
+                              target="blank"><i class="fab fa-linkedin"></i></a>
+                         <a class="social-media" href="https://wa.me/93658616" target="blank"> <i
+                                   class="fab fa-whatsapp"></i></a>
+
+                    </div>
+               </div>
+
+               <p>&copy; Copyright 2022 Micalex Optique. developé par <a href="http://www.mekengroup.com"
+                         target="_blank" rel="noopener noreferrer">MEG</a></p>
+          </div>
 
      </div>
 
-    
-          <div class="copyright">
-               <div class="text-center">
-                    <a class="social-media" href="https://www.facebook.com/Micalexoptique" target="blank"><i
-                              class="fab fa-facebook"></i></a>
-                    <a class="social-media" href="https://www.instagram.com/micalex_optique/" target="blank"><i
-                              class="fab fa-instagram"></i></a>
-                    <a class="social-media" href="https://www.linkedin.com/company/micalex-optique/" target="blank"><i
-                              class="fab fa-linkedin"></i></a>
-                    <a class="social-media" href="https://wa.me/93658616" target="blank"> <i class="fab fa-whatsapp"></i></a>
-                    <p>&copy; Copyright 2022 Micalex Optique. developé par <a href="http://www.mekengroup.com"
-                              target="_blank" rel="noopener noreferrer">MEG</a></p>
-               </div>
-          </div>
+
+
 </template>
 
 <script>
@@ -95,15 +121,14 @@
 
 <style lang="scss" scoped>
      .footer {
-          padding: 30px;
-          background-color: #001d6ec9;
-          
+          padding: 25px;
+          background-color: #001D6E;
+
           p,
-          h1,
-          li {
+          h1 {
                color: #fff;
                font-family: 'Jost', sans-serif;
-               font-weight: 500;
+               font-weight: 800;
                text-align: justify;
 
           }
@@ -113,15 +138,18 @@
                font-family: 'Jost', sans-serif;
           }
 
-          .col-lg-4 {
-               padding: 5px;
+          .row {
+               margin-left: 55px;
           }
+
 
           ul,
           li {
                font-size: 17px;
                font-family: 'Jost', sans-serif;
-               font-weight: 900;
+               font-weight: 500;
+               padding: 2px;
+               color: #fff;
 
           }
 
@@ -140,18 +168,23 @@
 
           }
 
-          hr {
-               border: 0.5px solid white;
-               color: #fff;
-               background-color: #fff;
-          }
 
-         
-     }
-
-      .copyright {
+          .copyright {
                padding: 5px;
                background-color: #001D6E;
+
+               .flex {
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+
+
+                    @media (max-width: 550px) {
+                         flex-direction: column;
+                         width: 100%
+                    }
+               }
+
 
                p {
                     font-family: 'Jost', sans-serif;
@@ -165,11 +198,15 @@
                     font-family: 'Jost', sans-serif;
                     font-weight: 900;
                     padding: 2px;
+
                }
 
                .social-media {
                     color: #fff;
-                    padding: 2px;
+                    padding: 7px;
+                    font-size: 15px
                }
           }
+
+     }
 </style>

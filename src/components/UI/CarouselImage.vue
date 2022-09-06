@@ -19,7 +19,7 @@
                          </div>
 
                          <div class="banner">
-                              <img src="../../assets/Images/20Micalex.jpg" class="d-block w-100 img-fluid" alt="...">
+                              <img src="../../assets/Images/1.jpg" class="d-block w-100 img-fluid" alt="...">
                          </div>
 
                          <div class="banner">
