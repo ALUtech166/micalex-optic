@@ -28,7 +28,7 @@
                                    en face de la Banque NSIA
                               </li>
                               <li><i class="fa fa-phone" aria-hidden="true"></i> Contact: +228 99710751</li>
-                              <li><i class="fa fa-phone" aria-hidden="true"></i> Bureau: +228 99710751</li>
+                              <li><i class="fa fa-phone" aria-hidden="true"></i> Bureau: +228 99710751 | 90710751</li>
                               <li><i class="fa fa-envelope" aria-hidden="true"></i> contact@micalexoptique.com</li>
 
 
@@ -48,7 +48,7 @@
                                    de la pharmacie Jeanne d’Arc
                               </li>
                               <li><i class="fa fa-phone" aria-hidden="true"></i> Contact: +228 99710751</li>
-                              <li><i class="fa fa-phone" aria-hidden="true"></i> Bureau: +228 99710751</li>
+                              <li><i class="fa fa-phone" aria-hidden="true"></i> Bureau: +228 99710751 | 90710751</li>
                               <li><i class="fa fa-envelope" aria-hidden="true"></i> contact@micalexoptique.com</li>
 
 

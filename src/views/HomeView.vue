@@ -247,7 +247,7 @@
             </div>
 
             <div class="col-lg-6">
-              <img class="img-fluid" src="../assets/Images/4.jpg" alt="">
+              <img class="img-fluid" src="../assets/Micalex.jpeg" alt="">
             </div>
           </div>
         </div>
@@ -281,7 +281,7 @@
 
   <section class="products">
     <div>
-      <h1>Nos Produits</h1>
+      <h1>Nos Montures</h1>
       <div class="row" v-if="produits && produits.length">
         <div class="col-lg-3" v-for="produit of produits" :key="produit.id">
           <img class="pictures img-fluid"
@@ -587,17 +587,17 @@
     }
 
     .montures {
-      padding: 10px;
+      padding: 5px;
       text-align: center;
     }
 
     .monture {
-      background-image: url("../assets/Montures.jpeg");
+      background-image: url("../assets/Montures.jpg");
       border-radius: 5px;
       background-size: cover;
       height: 40vh;
       width: 20vw;
-      padding: 5px;
+      padding: 10px;
       text-align: center;
 
        @media (max-width: 550px) {
@@ -613,11 +613,12 @@
       border-radius: 5px;
       height: 40vh;
       width: 20vw;
-      padding: 5px;
+      padding: 10px;
       text-align: center;
 
         @media (max-width: 550px) {
-       width: 100%
+       width: 100%;
+       
     }
 
     }
@@ -628,7 +629,8 @@
       border-radius: 5px;
       height: 100vh;
       width: 50vw;
-      padding: 5px;
+      padding: 10px;
+      margin-right: 10px;
 
         @media (max-width: 550px) {
        margin: 5px;
@@ -643,7 +645,7 @@
       border-radius: 5px;
       height: 40vh;
       width: 20vw;
-      padding: 5px;
+      padding: 10px;
 
         @media (max-width: 550px) {
        width: 100%
@@ -657,7 +659,7 @@
       border-radius: 5px;
       height: 40vh;
       width: 20vw;
-      padding: 5px;
+      padding: 10px;
 
         @media (max-width: 550px) {
        width: 100%
@@ -682,7 +684,6 @@
 
     img {
       width: 100%;
-      height: 100%;
     }
 
     form {
