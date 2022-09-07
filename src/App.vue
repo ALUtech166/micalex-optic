@@ -1,7 +1,7 @@
 <template>
   <navigation-menu></navigation-menu>
   <br>
-  <div class="container-fluid">
+  <div class="">
     <div class="app">
       <router-view />
     </div>

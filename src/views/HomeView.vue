@@ -172,7 +172,7 @@
         <div class="col-lg-3">
           <img src="../assets/2.svg" alt="">
           <h1>Service Immediat</h1>
-          <span>Nous offrons des services immediats</span>
+          <span>Nous repondons à vos Besoins</span>
           
         </div>
         <div class="col-lg-3">
