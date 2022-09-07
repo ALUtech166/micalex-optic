@@ -172,19 +172,19 @@
         <div class="col-lg-3">
           <img src="../assets/2.svg" alt="">
           <h1>Service Immediat</h1>
-          <span>Lorem ipsum dolor sit amet</span>
+          <span>Nous offrons des services immediats</span>
           
         </div>
         <div class="col-lg-3">
           <img src="../assets/4.svg" alt="">
             <h1>Cas de Reparations
             </h1>
-            <span>Lorem ipsum dolor sit amet</span>
+            <span>Nous reparons les Verres</span>
         </div>
         <div class="col-lg-3">
             <img src="../assets/3.svg" alt="">
             <h1>Cas d'Assurance</h1>
-            <span>Lorem ipsum dolor sit amet</span>
+            <span>Nous acceptons les Assurances</span>
         </div>
       </div>
   
@@ -571,6 +571,23 @@
        width: 100%
     }
 
+       @media (max-width:  820px) {
+         flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin: 5px
+    }
+
+       @media (max-width:  912px) {
+         flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin: 5px
+    }
+
+  
+
+
     h2 {
       font-family: 'Jost', sans-serif;
       color: #001D6E;
@@ -606,6 +623,17 @@
       
       }
 
+         @media (max-width:  820px) {
+       width: 100%;
+       padding: 10px
+    }
+
+       @media (max-width:  912px) {
+        width: 100%;
+    }
+
+
+
     }
 
     .lentilles {
@@ -622,6 +650,18 @@
        width: 100%;
        
     }
+
+       @media (max-width:  820px) {
+       width: 100%;
+       padding: 10px
+    }
+
+    
+       @media (max-width:  912px) {
+        width: 100%;
+    }
+
+
 
     }
 
@@ -640,6 +680,18 @@
        width: 100%
     }
 
+       @media (max-width:  820px) {
+       width: 100%;
+       padding: 10px
+    }
+
+    
+       @media (max-width:  912px) {
+        width: 100%;
+    }
+
+
+
     }
 
     .accessoires {
@@ -655,6 +707,18 @@
        width: 100%
     }
 
+       @media (max-width:  820px) {
+       width: 100%;
+       padding: 10px
+    }
+
+    
+       @media (max-width:  912px) {
+        width: 100%;
+    }
+
+
+
     }
 
     .enfants {
@@ -669,6 +733,19 @@
         @media (max-width: 550px) {
        width: 100%
     }
+
+       @media (max-width:  820px) {
+       width: 100%;
+       padding: 10px
+    }
+
+    
+       @media (max-width:  912px) {
+        width: 100%;
+    }
+
+
+   
 
     }
   }

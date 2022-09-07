@@ -182,7 +182,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                         <img class="images img-fluid" src="../assets/produit.jpg" alt="">
+                         <img class="images img-fluid" src="../assets/Produits.jpg" alt="">
                          <h2>Produits d'entretient</h2>
                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
                               Saepe ullam est distinctio officiis
