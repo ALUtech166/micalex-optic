@@ -148,9 +148,10 @@
                     <div class="col-lg-6">
                          <img class="images img-fluid" src="../assets/Image.jpeg" alt="">
                          <h2>Montures</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                              Saepe ullam est distinctio officiis
-                              cupiditate dolorem praesentium adipisci.
+                          <p> 
+                              La monture de lunettes est la structure qui soutient les verres correcteurs pour 
+                              que ces derniers soient alignés en face de chaque œil. Une monture de lunettes doit 
+                              être adaptée au visage et au besoin d'une personne.
                          </p>
 
                     </div>
@@ -158,9 +159,9 @@
                     <div class="col-lg-6">
                          <img class="images img-fluid" src="../assets/Lentilles-pic.jpeg" alt="">
                          <h2>Lentilles</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                              Saepe ullam est distinctio officiis
-                              cupiditate dolorem praesentium adipisci.
+                          <p>
+                              Une lentille est un milieu homogène, isotrope, transparent, 
+                              dont au moins l'une des faces n'est pas plane.
                          </p>
 
                     </div>
@@ -174,9 +175,10 @@
                     <div class="col-lg-6">
                          <img class="images img-fluid" src="../assets/Verres-pic.jpg" alt="">
                          <h2>Verres</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                              Saepe ullam est distinctio officiis
-                              cupiditate dolorem praesentium adipisci.
+                          <p>
+                              Un verre correcteur est une lentille optique portée devant l'œil,
+                              principalement pour corriger les amétropies : myopie, hypermétropie, 
+                              astigmatisme et presbytie. 
                          </p>
 
                     </div>
@@ -184,9 +186,9 @@
                     <div class="col-lg-6">
                          <img class="images img-fluid" src="../assets/Produits.jpg" alt="">
                          <h2>Produits d'entretient</h2>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                              Saepe ullam est distinctio officiis
-                              cupiditate dolorem praesentium adipisci.
+                         <p> 
+                              Nous disposons egalement des Produits d'entretient 
+                              des Verres pour la protection aussi bien en cas de reparations
                          </p>
 
                     </div>
