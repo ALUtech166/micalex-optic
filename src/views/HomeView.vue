@@ -361,7 +361,7 @@
     <div class="row" style="padding: 10px" v-if="testimoniales && testimoniales.length">
       <div class="col-lg-3" v-for="testimoniale of testimoniales" :key="testimoniale.id">
         <div class="testy">
-          <img class="images img-fluid"
+          <img class="image img-fluid"
             :src=" `${config.backend_url}${testimoniale.attributes.avatar.data.attributes.url}` " alt="">
           <p>
             <span>{{ testimoniale.attributes.nom }}</span> <br>
@@ -594,6 +594,7 @@
     .monture {
       background-image: url("../assets/Montures.jpg");
       border-radius: 5px;
+      box-shadow: 0 5px 10px #0005;
       background-size: cover;
       height: 40vh;
       width: 20vw;
@@ -611,6 +612,7 @@
       background-image: url("../assets/Lentilles.jpeg");
       background-size: cover;
       border-radius: 5px;
+      box-shadow: 0 5px 10px #0005;
       height: 40vh;
       width: 20vw;
       padding: 10px;
@@ -627,6 +629,7 @@
       background-image: url("../assets/FHommes.jpg");
       background-size: cover;
       border-radius: 5px;
+      box-shadow: 0 5px 10px #0005;
       height: 100vh;
       width: 50vw;
       padding: 10px;
@@ -643,6 +646,7 @@
       background-image: url("../assets/produit.jpg");
       background-size: cover;
       border-radius: 5px;
+      box-shadow: 0 5px 10px #0005;
       height: 40vh;
       width: 20vw;
       padding: 10px;
@@ -657,6 +661,7 @@
       background-image: url("../assets/Enfants.jpg");
       background-size: cover;
       border-radius: 5px;
+      box-shadow: 0 5px 10px #0005;
       height: 40vh;
       width: 20vw;
       padding: 10px;
@@ -1057,14 +1062,14 @@
     }
 
     span {
-      padding: 5px;
+      padding: 7px;
       font-family: 'Jost', sans-serif;
       color: #001D6E;
       font-weight: bold;
     }
 
     em {
-      padding: 5px;
+      padding: 10px;
       font-family: 'Jost', sans-serif;
       font-size: 14px;
       font-weight: 400;
@@ -1075,7 +1080,7 @@
       justify-content: space-evenly;
     }
 
-    .images {
+    .image {
       border-radius: 75%;
       width: 100px;
       height: 100px;

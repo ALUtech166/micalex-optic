@@ -146,7 +146,7 @@
                <div class="row">
 
                     <div class="col-lg-6">
-                         <img class="img-fluid" src="../assets/monture.jpg" alt="">
+                         <img class="images img-fluid" src="../assets/Image.jpeg" alt="">
                          <h2>Montures</h2>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
                               Saepe ullam est distinctio officiis
@@ -156,7 +156,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                         <img class="img-fluid" src="../assets/lentille.jpg" alt="">
+                         <img class="images img-fluid" src="../assets/Lentilles-pic.jpeg" alt="">
                          <h2>Lentilles</h2>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
                               Saepe ullam est distinctio officiis
@@ -172,7 +172,7 @@
 <div class="container">
                <div class="row">
                     <div class="col-lg-6">
-                         <img class="img-fluid" src="../assets/verres.jpg" alt="">
+                         <img class="images img-fluid" src="../assets/Verres-pic.jpg" alt="">
                          <h2>Verres</h2>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
                               Saepe ullam est distinctio officiis
@@ -182,7 +182,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                         <img class="img-fluid" src="../assets/produit.jpg" alt="">
+                         <img class="images img-fluid" src="../assets/produit.jpg" alt="">
                          <h2>Produits d'entretient</h2>
                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
                               Saepe ullam est distinctio officiis
@@ -330,6 +330,13 @@
           margin-top: 45px;
 
 
+          .images {
+               border-radius: 5px;
+               box-shadow: 0 5px 10px #0005;
+               
+          }
+
+
           h1 {
                color: #001D6E;
                font-weight: bold;
@@ -345,7 +352,7 @@
                font-weight: bold;
                font-size: 25px;
                text-transform: uppercase;
-               padding: 5px;
+               padding: 7px;
                font-family: 'Jost', sans-serif;
           
           }
@@ -363,6 +370,7 @@
                font-family: 'Jost', sans-serif; 
                font-size: 16px;
                text-align: justify;
+
                
           }
 

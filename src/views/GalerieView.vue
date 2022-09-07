@@ -122,7 +122,7 @@
 
 
      img {
-          border-radius: 15px;
+          border-radius: 8px;
           box-shadow: 0 5px 10px #0005;
 
      }
