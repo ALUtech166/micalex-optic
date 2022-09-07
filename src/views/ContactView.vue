@@ -128,7 +128,7 @@
           padding: 15px;
           font-family: 'Jost', sans-serif;
           font-weight: bold;
-          font-size: 17px;
+          font-size: 15px;
           text-align: justify;
      }
 

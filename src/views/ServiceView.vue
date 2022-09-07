@@ -142,22 +142,24 @@
                     cupiditate dolorem praesentium adipisci. Quod facere quos sed quisquam a iusto rerum id neque
                     temporibus architecto? Dolorem: </p>
 
-
+<div class="container">
                <div class="row">
 
                     <div class="col-lg-6">
-                         <img class="img-fluid" src="" alt="">
+                         <img class="img-fluid" src="../assets/monture.jpg" alt="">
                          <h2>Montures</h2>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam est distinctio officiis
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                              Saepe ullam est distinctio officiis
                               cupiditate dolorem praesentium adipisci.
                          </p>
 
                     </div>
 
                     <div class="col-lg-6">
-                         <img class="img-fluid" src="" alt="">
+                         <img class="img-fluid" src="../assets/lentille.jpg" alt="">
                          <h2>Lentilles</h2>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam est distinctio officiis
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                              Saepe ullam est distinctio officiis
                               cupiditate dolorem praesentium adipisci.
                          </p>
 
@@ -166,20 +168,24 @@
 
                </div>
 
+     </div>
+<div class="container">
                <div class="row">
                     <div class="col-lg-6">
-                         <img class="img-fluid" src="" alt="">
+                         <img class="img-fluid" src="../assets/verres.jpg" alt="">
                          <h2>Verres</h2>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam est distinctio officiis
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                              Saepe ullam est distinctio officiis
                               cupiditate dolorem praesentium adipisci.
                          </p>
 
                     </div>
 
                     <div class="col-lg-6">
-                         <img class="img-fluid" src="" width="500" alt="">
+                         <img class="img-fluid" src="../assets/produit.jpg" alt="">
                          <h2>Produits d'entretient</h2>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam est distinctio officiis
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                              Saepe ullam est distinctio officiis
                               cupiditate dolorem praesentium adipisci.
                          </p>
 
@@ -191,7 +197,7 @@
 
 
 
-
+    </div>
           </div>
      </div>
 
@@ -345,12 +351,19 @@
           }
 
           .row {
-               padding: 7px;
+               padding: 10px;
           }
+
+
+     .col-lg-6 {
+        padding: 15px;
+      }
 
           p {
                font-family: 'Jost', sans-serif; 
-               font-size: 17px;
+               font-size: 16px;
+               text-align: justify;
+               
           }
 
      }

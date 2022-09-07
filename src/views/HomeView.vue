@@ -172,16 +172,19 @@
         <div class="col-lg-3">
           <img src="../assets/2.svg" alt="">
           <h1>Service Immediat</h1>
+          <span>Lorem ipsum dolor sit amet</span>
           
         </div>
         <div class="col-lg-3">
           <img src="../assets/4.svg" alt="">
             <h1>Cas de Reparations
             </h1>
+            <span>Lorem ipsum dolor sit amet</span>
         </div>
         <div class="col-lg-3">
             <img src="../assets/3.svg" alt="">
             <h1>Cas d'Assurance</h1>
+            <span>Lorem ipsum dolor sit amet</span>
         </div>
       </div>
   
@@ -578,7 +581,7 @@
       padding: 15px;
       text-transform: uppercase;
       font-size: 18px;
-      background-color: rgba(255, 255, 255, 0.526);
+      background-color: rgba(255, 255, 255, 0.814);
       width: 50%;
       
     }
@@ -589,7 +592,7 @@
     }
 
     .monture {
-      background-image: url("../assets/Images/2.jpg");
+      background-image: url("../assets/Montures.jpeg");
       border-radius: 5px;
       background-size: cover;
       height: 40vh;
@@ -599,12 +602,13 @@
 
        @media (max-width: 550px) {
        width: 100%
-    }
+      
+      }
 
     }
 
     .lentilles {
-      background-image: url("../assets/Images/4.jpg");
+      background-image: url("../assets/Lentilles.jpeg");
       background-size: cover;
       border-radius: 5px;
       height: 40vh;
@@ -619,7 +623,7 @@
     }
 
     .hommes {
-      background-image: url("../assets/Images/20Micalex.jpg");
+      background-image: url("../assets/FHommes.jpg");
       background-size: cover;
       border-radius: 5px;
       height: 100vh;
@@ -634,7 +638,7 @@
     }
 
     .accessoires {
-      background-image: url("../assets/Images/produit.jpeg");
+      background-image: url("../assets/produit.jpg");
       background-size: cover;
       border-radius: 5px;
       height: 40vh;
@@ -648,7 +652,7 @@
     }
 
     .enfants {
-      background-image: url("../assets/Images/4.jpg");
+      background-image: url("../assets/Enfants.jpg");
       background-size: cover;
       border-radius: 5px;
       height: 40vh;
@@ -991,7 +995,7 @@
       font-weight: 400;
       font-family: 'Jost', sans-serif;
       line-height: 25px;
-      padding: 10px;
+      padding: 5px;
       color: #001D6E;
       font-weight: bold;
       text-transform: uppercase;
@@ -1006,12 +1010,14 @@
     }
 
     .row {
-      padding: 10px;
+      padding: 15px;
 
-      .col-lg-3 {
-        padding: 15px;
-      }
+     
     }
+
+     .col-lg-3 {
+        padding: 17px;
+      }
 
 
   }
