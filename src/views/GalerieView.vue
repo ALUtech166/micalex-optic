@@ -14,30 +14,44 @@
                </div>
                <div class="row">
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/33Micalex.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/Galerie1.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/Galerie2.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/33Micalex.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/Galerie3.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/17Micalex.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/Galerie4.jpg" alt="">
                     </div>
                </div>
                <div class="row">
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/26Micalex.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/Product1.jpeg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/27Micalex.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/Product2.jpeg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/28Micalex.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/Product3.jpeg" alt="">
                     </div>
                     <div class="col-lg-3">
-                         <img class="img-fluid" src="../assets/Images/25Micalex.jpg" alt="">
+                         <img class="img-fluid" src="../assets/Images/Product4.jpeg" alt="">
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-lg-3">
+                         <img class="img-fluid" src="../assets/Images/Lunette1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                         <img class="img-fluid" src="../assets/Images/Lunette2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                         <img class="img-fluid" src="../assets/Images/Lunette3.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                         <img class="img-fluid" src="../assets/Images/Lunette4.jpeg" alt="">
                     </div>
                </div>
           </div>
