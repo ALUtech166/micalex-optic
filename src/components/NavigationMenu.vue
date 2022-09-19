@@ -188,6 +188,7 @@
         margin-left: 15px;
         font-family: 'Jost', sans-serif;
         font-weight: bold;
+        font-size: 15px;
 
       }
 
@@ -196,7 +197,7 @@
       }
 
       .link {
-        font-size: 16px;
+        font-size: 15px;
         transition: .5s ease all;
         padding-bottom: px;
         border-bottom: 1px solid transparent;
